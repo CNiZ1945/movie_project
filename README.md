@@ -69,13 +69,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-=================================================================================
-React 방향서
 
-테스트 중
+### React 방향서
 
+터미널 종료할 때 ctrl + c를 통해서 종료할 것
 
+css 정리
 
+font-size 
+작은 글씨 0.8rem
+일반 글시 1.2rem
+큰 글씨 2rem
+
+color
+글씨 색 white
+
+간격
+작은 간격 5px
+일반 간격 10px
+큰 간격 20px
 
 
 
