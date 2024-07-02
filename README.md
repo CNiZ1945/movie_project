@@ -72,8 +72,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### React 방향서
 
-터미널 종료할 때 ctrl + c를 통해서 종료할 것
+리엑트 종료할 때 ctrl + c를 통해서 종료할 것
 
+git에서 다운로드
+1. 터미널에서 받을 파일로 이동
+2. git clone https://github.com/CNiZ1945/movie_project.git
+2.1 git clone url. : 현재 폴더에 데이터만 받아짐
+2.2 git clone url: 현재 폴더에 새로운 폴더가 만들어짐
+
+git에 업로드하기
+1. git add .
+2. git commit -m "commit하면서 남길 말"
+3. git push origin master
+
+
+------------------------------------------------------------------
 css 정리
 
 font-size 
