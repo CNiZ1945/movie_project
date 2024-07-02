@@ -115,10 +115,13 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
     ⨽ 영화 검색 페이지
 
 common - 공통으로 사용되는 요소들을 모아놓는 폴더
-   ⨽ css - css 모아놓는 폴더
-   ⨽ image - image파일들을 모아놓는 폴더
-   ⨽ video - video 파일들을 모아놓는 폴더
-|- header.js - 웹페이지 header   |- footer.js - 웹페이지 footer   |- login_header.js - 로그인페이지 header   |- admin_menu.js - 관리자 페이지 좌단 메뉴
+   ⨽ css - css 모아놓는 폴더<br/>
+   ⨽ image - image파일들을 모아놓는 폴더<br/>
+   ⨽ video - video 파일들을 모아놓는 폴더<br/>
+|- header.js - 웹페이지 header   <br/>
+|- footer.js - 웹페이지 footer   <br/>
+|- login_header.js - 로그인페이지 header   <br/>
+|- admin_menu.js - 관리자 페이지 좌단 메뉴  <br/>
 
 
 
