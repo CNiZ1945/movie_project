@@ -1,113 +1,127 @@
-# Getting Started with Create React App
+# React 방향서
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-### React 방향서
-
-리엑트 종료할 때 ctrl + c를 통해서 종료할 것
+리엑트 종료할 때 터미널에서 ctrl + c를 통해서 종료할 것
 
 git에서 다운로드
 1. 터미널에서 받을 파일로 이동
 2. git clone https://github.com/CNiZ1945/movie_project.git
-2.1 git clone url. : 현재 폴더에 데이터만 받아짐
-2.2 git clone url: 현재 폴더에 새로운 폴더가 만들어짐
+    2. 1 git clone url. : 현재 폴더에 데이터만 받아짐
+    2. 2 git clone url: 현재 폴더에 새로운 폴더가 만들어짐
 
 git에 업로드하기
 1. git add .
 2. git commit -m "commit하면서 남길 말"
-3. git push origin master
+3. git push
 
 
 ------------------------------------------------------------------
-css 정리
+## css 정리
 
-font-size 
+► size
+body - width: 1200px
+body, form을 제외한 가능한한 %를 통해서 width값 선택
+
+
+► font
+국문: noto sans - https://fonts.google.com/noto/specimen/Noto+Sans
+영문: Montaga - https://fonts.google.com/specimen/Montaga?query=monta&noto.query=mont
+
+
+► font-size 
 작은 글씨 0.8rem
 일반 글시 1.2rem
 큰 글씨 2rem
 
-color
+► color
 글씨 색 white
 
-간격
+
+► 간격
 작은 간격 5px
 일반 간격 10px
 큰 간격 20px
 
+► button size
+w 200px
+h 50px
+border-radious 10px
+
+► 정렬
+display: flex
+
+예외적인 경우가 생기면 기록을 남길 것
+
+------------------------------------------------------------------
+모든 className은 DB에 맞춰서 작성
+_(언더바) 를 쓰지 않고 camel기법으로 작성
 
 
 
+-------------------------------------------------------------
+## 파일 구조
 
+component: 기능을 담당하는 js를 모아두는 폴더
 
+pages: 페이지를 담당하는 js를 모아두는 폴더
 
+### adminstrator
+⨽admin - 관리자 전용
+    ⨽ components
+        ⨽ 영화 리스트
+        ⨽ 영화 업로드
+        ⨽ 회원 리스트 & 삭제
+    ⨽ pages
+        ⨽ 영화 리스트 페이지
+        ⨽ 영화 업로드 페이지
+        ⨽ 회원 관리 페이지
+
+⨽ notice - 공지 사항
+    ⨽ component
+        ⨽공지 사항 리스트
+        ⨽공지 사항 글쓰기 & 수정 & 삭제
+    ⨽ pages
+        ⨽공지 사항 리스트 페이지(관리자용)
+        ⨽공지 사항 글쓰기 페이지
+        ⨽공지 사항 글보기 페이지
+        ⨽공지 사항 글수정 페이지
+        ⨽공지 사항 리스트 페이지(일반 회원용)
+
+### member
+⨽ component
+    ⨽ 로그인
+    ⨽ 회원 가입
+    ⨽ 비밀번호 변경 & 회원 탈퇴
+    ⨽ 회원 정보
+    ⨽ 영화 북마크
+    ⨽ 리뷰 추가 & 삭제
+
+⨽ pages
+    ⨽ 로그인 페이지
+    ⨽ 회원 가입 페이지
+    ⨽ 비밀번호 변경 페이지
+    ⨽ 회원 탈퇴 페이지
+    ⨽ 마이 페이지(리뷰 + 영화 북마크 기능 + 회원 정보)
+
+### movie
+⨽ component
+    ⨽ 영화 상세 내용
+    ⨽ 영화 순위
+    ⨽ 영화 검색
+    ⨽ 최신 영화
+⨽ pages
+    ⨽ 메인 페이지
+    ⨽ 영화 상세 내용 페이지
+    ⨽ 영화 재생 페이지
+    ⨽ 영화 검색 페이지
+
+common - 공통으로 사용되는 요소들을 모아놓는 폴더
+   ⨽ css - css 모아놓는 폴더
+   ⨽ image - image파일들을 모아놓는 폴더
+   ⨽ video - video 파일들을 모아놓는 폴더
+|- header.js - 웹페이지 header
+|- footer.js - 웹페이지 footer
+|- login_header.js - 로그인페이지 header
+|- admin_menu.js - 관리자 페이지 좌단 메뉴
 
 
 
