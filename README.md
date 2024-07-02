@@ -5,8 +5,8 @@
 git에서 다운로드
 1. 터미널에서 받을 파일로 이동
 2. git clone https://github.com/CNiZ1945/movie_project.git
-    2. 1 git clone url. : 현재 폴더에 데이터만 받아짐
-    2. 2 git clone url: 현재 폴더에 새로운 폴더가 만들어짐
+    2. 1 git clone url. : 현재 폴더에 데이터만 받아짐    
+    2. 2 git clone url: 현재 폴더에 새로운 폴더가 만들어짐    
 
 git에 업로드하기
 1. git add .
@@ -17,52 +17,52 @@ git에 업로드하기
 ------------------------------------------------------------------
 ## css 정리
 
-► size
+► size    
 body - width: 1200px
 body, form을 제외한 가능한한 %를 통해서 width값 선택
 
 
-► font
-국문: noto sans - https://fonts.google.com/noto/specimen/Noto+Sans
-영문: Montaga - https://fonts.google.com/specimen/Montaga?query=monta&noto.query=mont
+► font    
+국문: noto sans - https://fonts.google.com/noto/specimen/Noto+Sans    
+영문: Montaga - https://fonts.google.com/specimen/Montaga?query=monta&noto.query=mont    
 
 
-► font-size 
+► font-size     
 작은 글씨 0.8rem
 일반 글시 1.2rem
 큰 글씨 2rem
 
-► color
+► color    
 글씨 색 white
 
 
-► 간격
+► 간격    
 작은 간격 5px
 일반 간격 10px
 큰 간격 20px
 
-► button size
+► button size    
 w 200px
 h 50px
 border-radious 10px
 
-► 정렬
+► 정렬   
 display: flex
 
 예외적인 경우가 생기면 기록을 남길 것
 
 ------------------------------------------------------------------
-모든 className은 DB에 맞춰서 작성
-_(언더바) 를 쓰지 않고 camel기법으로 작성
+모든 className은 DB에 맞춰서 작성     
+_(언더바) 를 쓰지 않고 camel기법으로 작성     
 
 
 
 -------------------------------------------------------------
 ## 파일 구조
 
-component: 기능을 담당하는 js를 모아두는 폴더
+component: 기능을 담당하는 js를 모아두는 폴더     
 
-pages: 페이지를 담당하는 js를 모아두는 폴더
+pages: 페이지를 담당하는 js를 모아두는 폴더     
 
 ### adminstrator
 ⨽admin - 관리자 전용<br/>
