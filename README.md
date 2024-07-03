@@ -1,6 +1,12 @@
 # React 방향서
 
+리엑트 파일 만들기 npx create-react-app "파일 이름"
+리엑트 시작 npm start
+
+
 리엑트 종료할 때 터미널에서 ctrl + c를 통해서 종료할 것
+
+
 
 git에서 다운로드
 1. 터미널에서 받을 파일로 이동
@@ -55,7 +61,7 @@ display: flex
 - 모든 className은 DB에 맞춰서 작성     
 - _(언더바) 를 쓰지 않고 camel기법으로 작성     
 - 닫는 태그가 없는 태그(예: input)은 스스로 태그를 닫아야 한다 (예: <input type:"text" />)
-- 
+- return안에 들어가는 html은 html 태그 하나로 묶어야 한다 <></> 사용 가능
 - 
 - 
 

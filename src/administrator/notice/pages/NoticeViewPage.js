@@ -18,7 +18,7 @@ function NoticeViewPage() {
                 </div>
                 <div className="post_content">
                     {/* <!-- 글 내용 --> */}
-                    <textarea name="" id="" cols="30" rows="10" className="post_text" readonly>
+                    <textarea name="" id="" cols="30" rows="10" className="post_text" readOnly>
                         textarea 자동 높이 조절은 js로 작업해야 함
 
 
@@ -43,11 +43,11 @@ function NoticeViewPage() {
                     <div className="btn_center">
                         {/* <!-- 수정 삭제 버튼 --> */}
                         {/* <!-- 관리자한테만 보여질 수 있게 작성 --> */}
-                        <button className="modify_btn" onclick="location.href = 'post_write.html' ">수정</button>
+                        <button className="modify_btn">수정</button>
                         <button className="delete_btn">삭제</button>
                     </div>
                     <div className="btn_right">
-                        <button className="back_to_list" onclick="location.href = 'notice.html' ">목록으로 돌아가기</button>
+                        <button className="back_to_list">목록으로 돌아가기</button>
                     </div>
                 </div>
 
