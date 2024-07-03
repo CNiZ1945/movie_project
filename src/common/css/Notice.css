@@ -1,0 +1,334 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Noto Sans KR", "Montaga", serif, sans-serif;
+}
+
+
+
+
+.noto-sans-kr {
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+}
+
+
+.montaga-regular {
+    font-family: "Montaga", serif;
+    font-style: normal;
+}
+
+body {
+    width: 1200px;   
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 95%, rgba(255,255,255,0) 100%);
+}
+/* ==================================== 초기화 ===================================================== */
+/* ==================================== header ==================================================== */
+header{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin-top: 10px;;
+    
+}
+/* header 왼쪽 */
+.header_right{
+    width: 15%;
+    display: flex;
+    position: relative;
+}
+.logo_img{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px );
+}
+
+.movie_btn a div{
+    padding-top: 25px;
+}
+/* 검색창  */
+.search{
+    width: 70%;
+    text-align: center;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+.search form{
+    /* display: flex; */
+    position: relative;
+    height: 100%;
+    
+}
+.search_input{
+    width: 80%;    
+    height: 30px;
+    position: relative;
+    top: calc( 50% - 25px);
+
+    outline: none;
+    transition: 0.3s;
+    border: none;
+}
+
+.search_input:focus{
+    box-shadow: 0px 0px 30px rgb(129, 240, 255);
+    
+}
+
+.search_input::placeholder{
+    text-align: center;
+}
+/* 검색 버튼 */
+.search_btn{
+    
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 30px);
+    right: calc(20px);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.search_btn i{
+    color: #74C0FC;
+
+}
+.search_btn:hover .search_btn i{
+    --fa-bounce-land-scale-x: 1.2;
+    --fa-bounce-land-scale-y: .8;
+    --fa-bounce-rebound: 5px;
+}
+/* header 오른쪽 */
+.header_left{
+    width: 15%;
+    display: flex;
+    /* border: 1px solid rgb(255, 255, 255); */
+    /* z-index: 0; */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.profile{
+    border: 1px solid #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transition: 0.3s;
+    left: calc(50% - 35px);
+    top: calc(50% - 35px);
+    /* z-index: 2; */
+}
+.profile_menu{
+    width: 120px;
+    text-align: center;
+    border: 1px solid #fff;
+    position: absolute;
+    transition: 0.3s;
+    left: calc(50% - 60px);
+    top: calc(50% + 40px);
+    background-color: #000;
+
+    /* margin: 10px; */
+    transition: 0.3s;
+    /* z-index: 1; */
+    
+}
+.profile_menu ul a{
+    width: 100%;
+    /* height: 100%; */
+}
+.profile_menu ul a li{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.profile_menu ul a li:hover{
+    background-color: #fff;
+    color:#000
+}
+/* ==================================== header ==================================================== */
+/* ==================================== notice ==================================================== */
+.notice{
+    /* border: 1px solid whitesmoke; */
+    color: white;
+}
+
+/* 리스트 칸 전부에 링크 걸기 */
+li a{
+    display: block;
+    color: white;
+}
+
+/* 공지사항 탭 내용 */
+.notice ul{
+    display: flex;
+    /* border: 1px solid whitesmoke; */
+    text-align: center;
+    border-bottom: 1px dashed rgb(235, 235, 235);
+}
+
+.notice_list ul:nth-child(2n-1){
+    background-color: #3d3d3d;
+}
+.notice_list ul:nth-child(2n){
+    background-color: #9b9b9b;
+}
+.notice_list ul:last-child{
+    border-bottom: none;
+}
+
+
+/* ul에 hover시 배경색 변경 */
+.notice_list ul:hover{
+    background-color: #b2f8fa;
+    font-weight: 800;
+    color: #000;
+}
+.notice_list ul:hover a{
+    font-weight: 800;
+    color:#000;
+}
+
+
+.notice ul li{
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* border-bottom: 1px solid black; */
+	border-right: 1px dashed rgb(236, 236, 236);
+	line-height: 30px;
+
+}
+
+
+/* li의 마지막 요소를 선택해 border 선 없애기 */
+.notice ul li:last-child{
+    border-right: none;
+}
+
+
+/* 리스트 width 길이 */
+.notice ul li:first-child{
+    width: 10%;
+}
+.notice ul li:nth-child(2){
+    width: 70%;
+}
+
+.notice ul li:last-child{
+    width: 20%;
+}
+
+/* ============================ 리스트 페이지 번호 ================================ */
+
+.page_no_ul{
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.page_no_ul li{
+    width: 10%;
+    /* border: 1px solid whitesmoke; */
+
+}
+.page_no_ul li:hover{
+    background-color: #8dfbff;
+}
+.page_no_ul li:hover a{
+    color: black;
+}
+
+/* =========================== 글 검색, 글쓰기 버튼 ================================ */
+.search_write{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    /* border: 1px solid white; */
+    position: relative;
+}
+
+
+/* 하단 검색창 */
+.botom_search{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.botom_search form{
+    display: flex;
+    justify-content: center;
+}
+.bottom_search_text{
+    width: 30%;
+    margin-right: 10px;
+}
+
+
+/* 글쓰기 버튼 */
+.botom_write{
+    width: 100px;
+    position: absolute;
+    right: calc(0% + 10px);
+    /* border: 1px solid red; */
+}
+
+.write_btn{
+    width: 100%;
+    border: none;
+}
+
+.write_btn:hover{
+    background-color: #f09b9b;
+}
+.write_btn:active{
+    background-color: #dbee86;
+}
+
+.write_btn a{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

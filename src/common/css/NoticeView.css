@@ -1,0 +1,322 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Noto Sans KR", "Montaga", serif, sans-serif;
+}
+
+
+.noto-sans-kr {
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+}
+
+
+.montaga-regular {
+    font-family: "Montaga", serif;
+    font-style: normal;
+}
+
+body {
+  width: 1200px;   
+  background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 95%, rgba(255,255,255,0) 100%);
+}
+
+/* ================================ 초기화 ========================================== */
+/* ================================ header ========================================= */
+
+header{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin-top: 10px;;
+    margin-bottom: 10px;
+}
+/* header 왼쪽 */
+.header_right{
+    width: 15%;
+    display: flex;
+    position: relative;
+}
+.logo_img{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px );
+}
+
+.movie_btn a div{
+    padding-top: 25px;
+}
+/* 검색창  */
+.search{
+    width: 70%;
+    text-align: center;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+.search form{
+    /* display: flex; */
+    position: relative;
+    height: 100%;
+    
+}
+.search_input{
+    width: 80%;    
+    height: 30px;
+    position: relative;
+    top: calc( 50% - 25px);
+
+    outline: none;
+    transition: 0.3s;
+    border: none;
+}
+
+.search_input:focus{
+    box-shadow: 0px 0px 30px rgb(129, 240, 255);
+    
+}
+
+.search_input::placeholder{
+    text-align: center;
+}
+/* 검색 버튼 */
+.search_btn{
+    
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 30px);
+    right: calc(20px);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.search_btn i{
+    color: #74C0FC;
+
+}
+.search_btn:hover .search_btn i{
+    --fa-bounce-land-scale-x: 1.2;
+    --fa-bounce-land-scale-y: .8;
+    --fa-bounce-rebound: 5px;
+}
+/* header 오른쪽 */
+.header_left{
+    width: 15%;
+    display: flex;
+    /* border: 1px solid rgb(255, 255, 255); */
+    /* z-index: 0; */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.profile{
+    border: 1px solid #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transition: 0.3s;
+    left: calc(50% - 35px);
+    top: calc(50% - 35px);
+    /* z-index: 2; */
+}
+.profile_menu{
+    width: 120px;
+    text-align: center;
+    border: 1px solid #fff;
+    position: absolute;
+    transition: 0.3s;
+    left: calc(50% - 60px);
+    top: calc(50% + 40px);
+    background-color: #000;
+
+    /* margin: 10px; */
+    transition: 0.3s;
+    /* z-index: 1; */
+    
+}
+.profile_menu ul a{
+    width: 100%;
+    /* height: 100%; */
+}
+.profile_menu ul a li{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.profile_menu ul a li:hover{
+    background-color: #fff;
+    color:#000
+}
+
+/* ================================ header ====================================== */
+/* ================================ 공지글 영역 ================================== */
+.psot_view{
+    width: 100%;
+    /* border: 1px solid red; */
+
+
+}
+
+
+/* 공지글 제목 */
+.post_name{
+    width: 99%;
+    color: white;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.post_head{
+    font-size: 2rem;
+    text-align: left;
+    border-bottom: 2px dashed white;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+    /* 날짜, 조회 */
+.post_info{
+    text-align: right;
+}
+.post_info span{
+    margin-right: 10px;
+}
+ /* =============================== 글 내용 ==================================== */
+.post_content{
+    width: calc(100% - 20px);
+    /* border: 1px solid white ; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.post_text{
+    width: 95%;
+    height: 500px;
+    resize: none;
+    outline: none;
+    overflow: visible;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid rgb(172, 142, 167);
+}
+
+
+/* 스크롤바 css */
+.post_text::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+}
+.post_text::-webkit-scrollbar-track {
+    border: 1px solid black;
+    background-color: rgb(196, 117, 117);
+    border-radius: 5px;
+}
+.post_text::-webkit-scrollbar-thumb { 
+    border: 1px solid rgb(89, 73, 236);
+    background-color: rgb(124, 246, 255);
+    border-radius: 5px;
+
+}
+.post_text::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* ================================ 버튼 영역 ================================== */
+.post_btn{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+.post_btn button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.post_btn button:hover{
+    background-color: #59df54;
+}
+.post_btn button:active{
+    background-color: #1572ff;
+}
+
+/* 왼쪽 */
+.btn_left{
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+
+
+/* 중앙 */
+.btn_center{
+    width: 60%;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn_center button{
+    width: 100px;
+    height: 50px;
+
+}
+
+
+
+
+/* 오른쪽 */
+.btn_right{
+    width: 20%;
+    /* border: 1px solid red; */
+    text-align: right;
+    /* padding-right: 10px; */
+}
+
+.back_to_list{
+    width: 100px;
+    height: 50px;
+
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

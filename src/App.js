@@ -1,14 +1,16 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
 import NoticeViewPage from './administrator/admin/pages/NoticeViewPage';
+import NoticeListPage from './administrator/admin/pages/NoticeListPage';
 
 function App() {
     return (
-        
-        <Routes>
-            <Route path = "/" element={<NoticeViewPage />} />
-
-        </Routes>
+        <BrowserRouter>
+            <Routes>
+                <Route path = "/" element={<NoticeViewPage />} />
+                <Route path = "/NoticeListPage" element={<NoticeListPage />} />
+            </Routes>
+        </BrowserRouter>
         
     );
 }

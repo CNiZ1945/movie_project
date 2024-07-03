@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Noto Sans KR", "Montaga", serif, sans-serif;
+    box-sizing: border-box;
+}
+
+.noto-sans-kr {
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+}
+
+.montaga-regular {
+    font-family: "Montaga", serif;
+    font-style: normal;
+}
+
+body {
+    width: 1200px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* 헤더 */
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    ;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.wrap {
+    width: 1200px;
+}
+
+.inner {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    padding: 45px;
+    border-radius: 8px;
+    position: initial;
+    top: 300px;
+}
+
+.inner div {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
+
+#pw,
+#em,
+#ph,
+#mg,
+#bt, #conform_pw {
+    margin-top: 20px;
+}
+
+/* 제목 밖스 */
+h3 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+.title {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+/* 전체 적는 밖스 */
+div input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+div input:focus {
+    box-shadow: 0px 0px 30px rgb(246, 12, 12);
+}
+
+
+/* 이용약관 */
+.text {
+    width: 420px;
+    height: 200px;
+    border: 1px solid #dadada;
+    overflow-y: scroll;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* 남녀 선택 */
+.gd {
+    display: inline-block;
+    border: 1px solid #dadada;
+    width: 420px;
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+select {
+    width: 100%;
+    font-size: 15px;
+    background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+    background-size: 20px 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    text-align: start;
+    border: none;
+    cursor: default;
+}
+
+span {
+
+    border: 1px solid white;
+}
+
+#red_color {
+    display: flex;
+    color: rgb(204, 61, 61);
+}
+
+
+/* 회원가입 버튼 */
+button[type="submit"] {
+    position: relative;
+    width: 420px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    bottom: -20px;
+    margin-bottom: 40px;
+
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+/* 커스텀 체크박스 스타일 */
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.custom-checkbox .checkmark {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: all 0.3s;
+}
+
+/* 체크 상태일 때 스타일 */
+.custom-checkbox input[type="checkbox"]:checked+.checkmark {
+    background-color: gray;
+    /* border-color: #4caf50; */
+}
+
+/* 체크 표시 추가 */
+.custom-checkbox .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* 체크된 상태에서 표시 */
+.custom-checkbox input[type="checkbox"]:checked+.checkmark::after {
+    display: block;
+}

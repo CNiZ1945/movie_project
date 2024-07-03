@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../../../common/css/NoticeView.css'
 
 function NoticeViewPage() {
     return (
