@@ -33,7 +33,7 @@ function NoticeWritePage() {
                     {/* <!-- 첨부파일버튼 --> */}
                     <div className="file_submit">
                         <div className="f_s">
-                            <input type="file" id="file" name="file" value="첨부파일" />
+                            <input type="file" id="file" name="file"  />
                         </div>
                         {/* <!-- 글쓰기 버튼 --> */}
                         <div className="s_b">
