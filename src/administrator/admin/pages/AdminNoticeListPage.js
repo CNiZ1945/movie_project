@@ -17,7 +17,7 @@ function AdminNoitceListPage() {
                 <h2>공지사항</h2>
             </div>
             <div className="notice_link">
-                <span><Link to="notice.html">자세히 보러 가기 {'>'}</Link></span>
+                <span><Link to="/Notice">자세히 보러 가기 {'>'}</Link></span>
             </div>
 
             <div className="admin_notice_list_menu">
