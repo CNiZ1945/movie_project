@@ -23,17 +23,17 @@ function SignUp() {
     return (
 
 
-        <div class="wrap">
+        <div className="wrap">
             {/* <!-- 보안성을 위해 method="post" 추가 --> */}
             <form action="" method="post">
-                <div class="inner">
+                <div className="inner">
                     {/* <!-- 아이디 --> */}
                     <div id="id">
                         <h3><label for="username">아이디</label></h3>
                     </div>
                     <div id="name">
                         <input type="text" id="username" name="username" required />
-                        {/* <!-- <button class="conform_ID">아이디 확인</button> --> */}
+                        {/* <!-- <button className="conform_ID">아이디 확인</button> --> */}
                     </div>
                     {/* <!-- 비밀번호 --> */}
                     <div id="pw">
@@ -64,12 +64,12 @@ function SignUp() {
                     </div>
 
 
-                    <div class="gender">
+                    <div className="gender">
                         <div id="mg">
                             <h3><label for="email">남녀선택</label></h3>
                         </div>
-                        <div class="gd">
-                            <select id="gender" class="sel">
+                        <div className="gd">
+                            <select id="gender" className="sel">
                                 {/* <!-- 보낼 값 --> */}
                                 <option value="male">남성</option>
                                 <option value="female">여성</option>
@@ -77,7 +77,7 @@ function SignUp() {
                         </div>
                         {/* <!-- 남자는 value값 male 여자는 value값 female --> */}
                     </div>
-                    <div class="birth">
+                    <div className="birth">
                         <div id="bt">
                             <h3><label for="birth">생년월일</label></h3>
                         </div>
@@ -86,8 +86,8 @@ function SignUp() {
                 </div>
                 {/* <!-- 이용약관 --> */}
                 <div>
-                    <h3 class="title">이용약관</h3>
-                    <div class="text">제1조(목적등)
+                    <h3 className="title">이용약관</h3>
+                    <div className="text">제1조(목적등)
                         ① 환경영향평가정보지원시스템 인터넷 회원 약관(이하 "본 약관" 이라 합니다)은 이용자가 환경영향평가정보지원시스템에서 제공하는 인터넷 관련 서비스(이하 "서비스"라 합니다)를
                         이용함에 있어 이용자와 환경영향평가정보지원시스템에 권리·의무 및 책임사항을 규정함을 목적으로 합니다.
                         ② 이용자가 되고자 하는 자가 환경영향평가정보지원시스템이 정한 소정의 절차를 거쳐서 "회원가입" 단추를 누르면 본 약관에 동의하는 것으로 간주합니다. 본 약관에 정하는 이외의
@@ -171,9 +171,9 @@ function SignUp() {
 
                     </div>
                     {/* <!-- 동의 버튼 --> */}
-                    <label class="custom-checkbox">
+                    <label className="custom-checkbox">
                         <input type="checkbox" required />
-                        <span class="checkmark">동의(필수)</span>
+                        <span className="checkmark">동의(필수)</span>
 
                     </label>
                 </div>

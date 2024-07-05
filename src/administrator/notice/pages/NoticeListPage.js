@@ -17,9 +17,9 @@ function NoticeListPage() {
 
     return (
         <>
-            <div class="notice">
+            <div className="notice">
                 {/* <!-- 공지 사항 내용 --> */}
-                <div class="notice_div">
+                <div className="notice_div">
                     <ul>
                         <li>글번호</li>
                         <li>글 내용</li>
@@ -27,7 +27,7 @@ function NoticeListPage() {
                     </ul>
                 </div>
                 {/* <!-- 공지사항 리스트 --> */}
-                <div class="notice_list">
+                <div className="notice_list">
                     <ul>
                         <li>
                             1
@@ -152,8 +152,8 @@ function NoticeListPage() {
                 </div>
             </div>
             {/* <!--  ======================== 리스트 페이지 번호 ================================ --> */}
-            <div class="page_no">
-                <ul class="page_no_ul">
+            <div className="page_no">
+                <ul className="page_no_ul">
                     <li><a href="">&lt;</a></li>
                     <li><a href="">1</a></li>
                     <li><a href="">2</a></li>
@@ -169,17 +169,17 @@ function NoticeListPage() {
                 </ul>
             </div>
             {/* <!-- ========================= 글 검색, 글쓰기 버튼 --> */}
-            <div class="search_write">
+            <div className="search_write">
                 {/* <!-- 글 검색 --> */}
-                <div class="botom_search">
+                <div className="botom_search">
                     <form action="">
-                        <input type="text" name="" id="" class="bottom_search_text" /> 
+                        <input type="text" name="" id="" className="bottom_search_text" /> 
                         <input type="submit" name="" id="" value="검색" />
                     </form>
                 </div>
                         {/* <!-- 글쓰기 버튼 --> */}
-                <div class="botom_write">
-                    <button type="button" class="write_btn" >글쓰기</button>
+                <div className="botom_write">
+                    <button type="button" className="write_btn" >글쓰기</button>
                 </div>
             </div>
 

@@ -23,15 +23,15 @@ function FindIdPassword() {
 
     return (
         <>
-            <div class="find">
+            <div className="find">
                 {/* <!-- 아이디찾기 전체박스 --> */}
-                <div class="find_id">
+                <div className="find_id">
                     {/* <!-- 아이디찾기 제목박스 --> */}
-                    <div class="fi_id">
+                    <div className="fi_id">
                         <h2>아이디찾기</h2>
                     </div>
                     {/* <!-- 아이디찾기 글쓰기 박스 --> */}
-                    <div class="f_id">
+                    <div className="f_id">
                         <form action="">
                             <label for="useremail">이메일</label>
                             <input type="text" id="useremail" name="useremail" required /><br />
@@ -43,13 +43,13 @@ function FindIdPassword() {
                     </div>
                 </div>
                 {/* <!-- 비밀번호찾기 전체박스 --> */}
-                <div class="find_pw">
+                <div className="find_pw">
                     {/* <!-- 비밀번호 찾기 제목 박스 --> */}
-                    <div class="fi_pw">
+                    <div className="fi_pw">
                         <h2>비밀번호찾기</h2>
                     </div>
                     {/* <!-- 비밀번호 찾기 글쓰기 박스 --> */}
-                    <div class="f_pw">
+                    <div className="f_pw">
                         <form action="">
                             <label for="userid">아이디</label>
                             <input type="text" id="userid" name="userid" required /><br />

@@ -18,10 +18,10 @@ function AdminMovieUploadPage(){
     
     return(
         <>
-                <div class="upload_body">
-            <form action="" class="form">
+                <div className="upload_body">
+            <form action="" className="form">
 
-                <label for="" class="label">
+                <label for="" className="label">
                     <div>제목: </div>
                     <div>
                         <input type="text" name="" id="" required />
@@ -108,7 +108,7 @@ function AdminMovieUploadPage(){
                 </label>
                 {/* <!-- <button>영상올리기(파일업로드)</button> --> */}
 
-                <input type="submit" name="" id="upload" value="업로드" class="submit" />
+                <input type="submit" name="" id="upload" value="업로드" className="submit" />
 
             </form>
 
