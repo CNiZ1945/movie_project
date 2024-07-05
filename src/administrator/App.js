@@ -16,7 +16,7 @@ import MoviePlayPage from './movie/pages/MoviePlayPage';
 import MovieSearch from './movie/pages/MovieSearch';
 import WithdrawMember from './member/pages/WithdrawMember';
 import FindIdPassword from './member/pages/FindIdPassword';
-import Header from './common/pages/Header'
+import Header from './common/Header'
 
 function App() {
     return (
