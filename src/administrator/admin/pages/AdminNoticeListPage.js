@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-
+// css
+import "../../../common/css/AdminNoticeListPage.css"
 
 function AdminNoitceListPage() {
 

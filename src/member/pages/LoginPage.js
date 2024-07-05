@@ -51,14 +51,14 @@ function Login() {
                     </div>
                 </form>
                 <div className="google_login">
-                    <Link href="#"><img src="img/google_login.png" alt="구글로그인버튼" /></Link>
+                    <Link to="#"><img src="img/google_login.png" alt="구글로그인버튼" /></Link>
                 </div>
                 <div className="signup">
                     <div className="signup2">
-                        <Link href="signup.html">회원가입</Link>
+                        <Link to="/SignUp">회원가입</Link>
                     </div>
                     <div className="signup3">
-                        <Link href="findidpw.html">아이디/비밀번호 찾기</Link>
+                        <Link to="/FindIdPassword">아이디/비밀번호 찾기</Link>
                     </div>
                 </div>
             </div>

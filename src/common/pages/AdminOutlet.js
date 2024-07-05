@@ -5,7 +5,8 @@ import {Outlet} from 'react-router-dom';
 // page import
 import AdminHeader from './AdminHeader';
 
-
+// css
+import '../css/AdminOutlet.css';
 
 function AdministratorPage() {
 
@@ -13,8 +14,11 @@ function AdministratorPage() {
 
     return (
         <>
+        <div className='body'>
         <AdminHeader />
         <Outlet />
+
+        </div>
         
         
         
