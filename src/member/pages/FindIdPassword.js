@@ -32,7 +32,7 @@ function FindIdPassword() {
                     </div>
                     {/* <!-- 아이디찾기 글쓰기 박스 --> */}
                     <div className="f_id">
-                        <form action="">
+                        <form action="" method='post'>
                             <label for="useremail">이메일</label>
                             <input type="text" id="useremail" name="useremail" required /><br />
                             {/* <!-- 아이디 찾기 버튼 --> */}
@@ -50,7 +50,7 @@ function FindIdPassword() {
                     </div>
                     {/* <!-- 비밀번호 찾기 글쓰기 박스 --> */}
                     <div className="f_pw">
-                        <form action="">
+                        <form action="" method='post'>
                             <label for="userid">아이디</label>
                             <input type="text" id="userid" name="userid" required /><br />
                             <label for="useremail">이메일</label>

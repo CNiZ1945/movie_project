@@ -24,7 +24,7 @@ function ChangePassword() {
             </div>
             {/* <!-- 비밀번호 변경 박스 --> */}
             <div className="password_form_div">
-                <form action="">
+                <form action="" method='post'>
                     <div className="change_password">
                         <div>
                             비밀번호 변경:

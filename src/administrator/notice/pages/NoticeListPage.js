@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 
 import '../../../common/css/Notice.css'
 
@@ -33,7 +33,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -44,7 +44,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -55,7 +55,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -66,7 +66,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -77,7 +77,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -88,7 +88,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -99,7 +99,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -110,7 +110,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -121,7 +121,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -132,7 +132,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -143,7 +143,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <a href="post_view.html">공지사항 1</a>
+                            <Link to="/Notice/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -154,18 +154,18 @@ function NoticeListPage() {
             {/* <!--  ======================== 리스트 페이지 번호 ================================ --> */}
             <div className="page_no">
                 <ul className="page_no_ul">
-                    <li><a href="">&lt;</a></li>
-                    <li><a href="">1</a></li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">5</a></li>
-                    <li><a href="">6</a></li>
-                    <li><a href="">7</a></li>
-                    <li><a href="">8</a></li>
-                    <li><a href="">9</a></li>
-                    <li><a href="">10</a></li>
-                    <li><a href="">&gt;</a></li>
+                    <li><Link to="">{'<'}</Link></li>
+                    <li><Link to="">1</Link></li>
+                    <li><Link to="">2</Link></li>
+                    <li><Link to="">3</Link></li>
+                    <li><Link to="">4</Link></li>
+                    <li><Link to="">5</Link></li>
+                    <li><Link to="">6</Link></li>
+                    <li><Link to="">7</Link></li>
+                    <li><Link to="">8</Link></li>
+                    <li><Link to="">9</Link></li>
+                    <li><Link to="">10</Link></li>
+                    <li><Link to="">{'>'}</Link></li>
                 </ul>
             </div>
             {/* <!-- ========================= 글 검색, 글쓰기 버튼 --> */}

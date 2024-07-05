@@ -31,7 +31,7 @@ function MainPage() {
                             <li>
                                 <Link to="MoviePage">
                                     <figure>
-                                        <img src="img/dune.jpg" alt="" className="img_slide" />
+                                        <img src={"../../common/img/dune.jpg"} alt="" className="img_slide" />
                                         <figcaption>
                                             <p className="movie_title">듄</p>
                                             <p className="movie_content" >Lorem, ipsum dolor sit amet consectetur adipi. Maiores sapiente la, accusamus officiis at ea quibusdam dignissimos iure voluptatem quas eligendi quaerat nihil, incidunt omnis!</p>
@@ -44,7 +44,7 @@ function MainPage() {
                             <li>
                                 <Link to="MoviePage">
                                     <figure>
-                                        <img src="img/half-life-3-pc-game-cover.jpg" alt="" className="img_slide" />
+                                        <img src={'../../common/img/dune.jpg'} alt="" className="img_slide" />
                                         <figcaption>
                                             <p className="movie_title">하프라이프 3</p>
                                             <p className="movie_content" >Lorem, ipsum dolor sit amet consectetur adipi. Maiores sapiente la, accusamus officiis at ea quibusdam dignissimos iure voluptatem quas eligendi quaerat nihil, incidunt omnis!</p>
@@ -59,7 +59,7 @@ function MainPage() {
                             <li>
                                 <Link to="MoviePage">
                                     <figure>
-                                        <img src="img/harry.webp" alt="" className="img_slide" />
+                                        <img src={'../../common/img/dune.jpg'} alt="" className="img_slide" />
                                         <figcaption>
                                             <p className="movie_title">해리포터</p>
                                             <p className="movie_content" >Lorem, ipsum dolor sit amet consectetur adipi. Maiores sapiente la, accusamus officiis at ea quibusdam dignissimos iure voluptatem quas eligendi quaerat nihil, incidunt omnis!</p>
@@ -73,7 +73,7 @@ function MainPage() {
                             <li>
                                 <Link to="MoviePage">
                                     <figure>
-                                        <img src="img/home.png" alt="" className="img_slide" />
+                                        <img src={'../../common/img/dune.jpg'} alt="" className="img_slide" />
                                         <figcaption>
                                             <p className="movie_title">나홀로 집에</p>
                                             <p className="movie_content" >Lorem, ipsum dolor sit amet consectetur adipi. Maiores sapiente la, accusamus officiis at ea quibusdam dignissimos iure voluptatem quas eligendi quaerat nihil, incidunt omnis!</p>

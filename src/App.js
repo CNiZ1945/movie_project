@@ -9,7 +9,7 @@ import LoginOutlet from './common/pages/LoginOutlet';
 // movie
 import MainPage from './movie/pages/MainPage';
 import MoviePage from './movie/pages/MoviePage';
-import MovieSearch from './movie/pages/MovieSearch';
+import MovieSearch from './movie/pages/MovieSearchPage';
 
 
 // member
@@ -43,9 +43,8 @@ function App() {
                     <Route path="/MovieSearch" element={<MovieSearch />} />
                     <Route path="/MyPage" element={<MyPage />} />
                     <Route path='/Notice' element={<NoticeListPage />}  />
-                    <Route path='/NoticeView' element={<NoticeViewPage />}  />
-                    <Route path='/Notice' element={<NoticeListPage />}  />
-                    <Route path='/Write' element={<NoticeWritetPage />}  />
+                    <Route path='/View' element={<NoticeViewPage />}  />
+                    <Route path='/Notice/Write' element={<NoticeWritetPage />}  />
 
                 </Route>
                 <Route element={<AdminOutlet />} >

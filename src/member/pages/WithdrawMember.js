@@ -28,7 +28,7 @@ function WithdrawMember() {
                 <h2>탈퇴하기</h2>
             </div>
             <div className="password_form_div">
-                <form action="">
+                <form action="" method='post'>
                     <div className="password_div">
                         <div>
                             비밀번호 입력:

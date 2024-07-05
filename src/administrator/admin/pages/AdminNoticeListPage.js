@@ -30,57 +30,57 @@ function AdminNoitceListPage() {
             <div className="admin_notice_list">
                 <ul className="admin_notice_list_ul">
                     <li>1</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>2</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>3</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>4</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>3</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>5</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>6</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>7</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>8</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>9</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>10</li>
-                    <li><Link to="post_view.html">공지사항 1</Link></li>
+                    <li><Link to="/View">공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
 

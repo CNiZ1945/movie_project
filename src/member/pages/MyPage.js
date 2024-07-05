@@ -30,31 +30,31 @@ function MyPage(){
         <div className="my_review_list">
             <ul className="my_review_list_ul">
                 <li className="movie_name">반지의 제왕</li>
-                <li className="movie_review"><Link href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
+                <li className="movie_review"><Link to="/MoviePage">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
                 <li className="review_date">2024.06.30</li>
                 <li className="review_star">&#9733;(5)</li>
             </ul>
             <ul className="my_review_list_ul">
                 <li className="movie_name">반지의 제왕</li>
-                <li className="movie_review"><Link href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
+                <li className="movie_review"><Link to="/MoviePage">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
                 <li className="review_date">2024.06.30</li>
                 <li className="review_star">&#9733;(5)</li>
             </ul>
             <ul className="my_review_list_ul">
                 <li className="movie_name">반지의 제왕</li>
-                <li className="movie_review"><Link href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
+                <li className="movie_review"><Link to="/MoviePage">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
                 <li className="review_date">2024.06.30</li>
                 <li className="review_star">&#9733;(5)</li>
             </ul>
             <ul className="my_review_list_ul">
                 <li className="movie_name">반지의 제왕</li>
-                <li className="movie_review"><Link href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
+                <li className="movie_review"><Link to="/MoviePage">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
                 <li className="review_date">2024.06.30</li>
                 <li className="review_star">&#9733;(5)</li>
             </ul>
             <ul className="my_review_list_ul">
                 <li className="movie_name">반지의 제왕</li>
-                <li className="movie_review"><Link href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
+                <li className="movie_review"><Link to="/MoviePage">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quidem harum optio provident rerum, voluptates beatae qui corrupti ea, distinctio</Link></li>
                 <li className="review_date">2024.06.30</li>
                 <li className="review_star">&#9733;(5)</li>
             </ul>
@@ -84,11 +84,11 @@ function MyPage(){
         <div className="bookmark_movie">
             {/* <!-- 리엑트로 넘어갈 시 swiper를 공부해서 적용해볼 것 --> */}
             <ul className="bookmark_movie_ul">
-                <li><Link href="movie_page.html"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
-                <li><Link href="movie_page.html"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
-                <li><Link href="movie_page.html"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
-                <li><Link href="movie_page.html"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
-                <li><Link href="movie_page.html"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
+                <li><Link to="/MoviePage"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
+                <li><Link to="/MoviePage"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
+                <li><Link to="/MoviePage"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
+                <li><Link to="/MoviePage"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
+                <li><Link to="/MoviePage"><img src="img/the_ring_poster.webp" alt="" /></Link></li>
                 
             </ul>
         
@@ -101,7 +101,7 @@ function MyPage(){
          </div>
         <div className="member_info">
 
-            <form action="">
+            <form action="" method='post'>
                 <div className="form_div">
                     <div>
                         <label for="name">이름: </label>
@@ -123,7 +123,7 @@ function MyPage(){
                         <label for="passwordr">비밀번호: </label>
                     </div>
                     <div>
-                        <button onclick = "location.href = 'change_password.html'">비밀 번호 변경</button>
+                        <button onclick = "location.to = 'change_password.html'">비밀 번호 변경</button>
                     </div>
                 </div>
                 <div className="form_div">
@@ -158,7 +158,7 @@ function MyPage(){
         </div>
     </div>
     <div className="member_withdrawal">
-        <Link href="withdraw_member.html">회원탈퇴</Link>
+        <Link to="/WithdrawMember">회원탈퇴</Link>
     </div>
         
         

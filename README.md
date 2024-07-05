@@ -81,10 +81,10 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
         ⨽ 영화 업로드<br/>
         ⨽ 회원 리스트 & 삭제<br/>
     ⨽ pages<br/>
-        ⨽공지 사항 리스트 페이지(관리자용)<br/> 
-        ⨽ 영화 리스트 페이지<br/>
-        ⨽ 영화 업로드 페이지<br/>
-        ⨽ 회원 관리 페이지<br/>
+        ⨽ AdminNoticeListPage.js - 공지 사항 리스트 페이지(관리자용)<br/> 
+        ⨽ AdminMovieListPage.js - 영화 리스트 페이지<br/>
+        ⨽ AdminMovieUploadPage.js - 영화 업로드 페이지<br/>
+        ⨽ AdminMemberListPage.js - 회원 관리 페이지<br/>
 
 ⨽ notice - 공지 사항<br/>
     ⨽ component<br/>
@@ -92,10 +92,9 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
         ⨽공지 사항 글쓰기 & 수정 & 삭제<br/>
         ⨽파일 업로드 & 다운로드<br/>
     ⨽ pages<br/>
-        ⨽공지 사항 글쓰기 페이지<br/>
-        ⨽공지 사항 글보기 페이지<br/>
-        ⨽공지 사항 글수정 페이지<br/>
-        ⨽공지 사항 리스트 페이지(일반 회원용)<br/>
+        ⨽ NoticeWritePage.js - 공지 사항 글쓰기 페이지<br/>
+        ⨽ NoticeViewPage.js - 공지 사항 글보기 페이지<br/>
+        ⨽ NoticeListPage.js - 공지 사항 리스트 페이지(일반 회원용)<br/>
 
 ### member
 ⨽ component<br/>
@@ -107,12 +106,12 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
     ⨽ 리뷰 추가 & 삭제<br/>
 
 ⨽ pages<br/>
-    ⨽ 로그인 페이지<br/>
-    ⨽ 회원 가입 페이지<br/>
-    ⨽ 비밀번호 변경 페이지<br/>
-    ⨽ 아이디 비밀번호 찾기 페이지<br/>
-    ⨽ 회원 탈퇴 페이지<br/>
-    ⨽ 마이 페이지(리뷰 + 영화 북마크 기능 + 회원 정보)<br/>
+    ⨽ LoginPage.js - 로그인 페이지<br/>
+    ⨽ SignUp.js - 회원 가입 페이지<br/>
+    ⨽ ChangePassword.js - 비밀번호 변경 페이지<br/>
+    ⨽ FindIdPassword.js - 아이디 비밀번호 찾기 페이지<br/>
+    ⨽ WithdrawMember.js - 회원 탈퇴 페이지<br/>
+    ⨽ MyPage.js - 마이 페이지(리뷰 + 영화 북마크 기능 + 회원 정보)<br/>
 
 ### movie
 ⨽ component<br/>
@@ -122,19 +121,23 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
     ⨽ 최신 영화<br/>
     ⨽ 영화 추천<br/>
 ⨽ pages<br/>
-    ⨽ 메인 페이지(영화 순위 + 최신 영화 + 영화 추천)<br/>
-    ⨽ 영화 상세 내용 페이지<br/>
-    ⨽ 영화 재생 페이지<br/>
-    ⨽ 영화 검색 페이지<br/>
+    ⨽ MainPage.js - 메인 페이지(영화 순위 + 최신 영화 + 영화 추천)<br/>
+    ⨽ MoviePage.js - 영화 상세 내용 페이지<br/>
+    ⨽ MoviePlayPage.js 영화 재생 페이지<br/>
+    ⨽ MovieSearchPage.js 영화 검색 페이지<br/>
 
 common - 공통으로 사용되는 요소들을 모아놓는 폴더<br/>
    ⨽ css - css 모아놓는 폴더<br/>
    ⨽ image - image파일들을 모아놓는 폴더<br/>
    ⨽ video - video 파일들을 모아놓는 폴더<br/>
-|- header.js - 웹페이지 header   <br/>
-|- footer.js - 웹페이지 footer   <br/>
-|- login_header.js - 로그인페이지 header   <br/>
-|- admin_menu.js - 관리자 페이지 좌단 메뉴  <br/>
+   ⨽ pages - 공통으로 사용되는 페이지
+      ⨽ AdminHeader.js - 관리자용 페이지 메뉴 
+      ⨽ AdminOutlet.js - 관리자용 페이지 outlet
+      ⨽ CustomerOutlet.js - 회원용 페이지 outlet
+      ⨽ Footer.js - Footer 페이지
+      ⨽ Header.js - 회원 header 페이지
+      ⨽ LoginHdeader.js - 로그인관련 페이지용 header
+      ⨽ LoginOutlet.js - 로그인관련 페이지 Outlet
 
 
 ===
