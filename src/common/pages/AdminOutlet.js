@@ -14,7 +14,7 @@ function AdministratorPage() {
 
     return (
         <>
-        <div className='body'>
+        <div className='adminbody'>
         <AdminHeader />
         <Outlet />
 

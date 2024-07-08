@@ -1,5 +1,5 @@
 .admin_notice_div{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -70,11 +70,11 @@ li Link{
 /* ============================ 리스트 페이지 ========================== */
 
 .admin_notice_page{
-    width: 100%;
+    width: 90%;
 }
 
 .admin_notice_page_ul{
-    /* width: 80%; */
+    width: 40%;
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;

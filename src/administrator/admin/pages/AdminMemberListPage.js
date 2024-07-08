@@ -14,7 +14,9 @@ function AdminMemberListPage() {
     return (
         <>
             <div className="list_div">
-
+            <div className="admin_member_haed">
+                <h2>회원 관리</h2>
+            </div>
                 <div className="admin_member_list">
                     <div>
                         <ul className="list content">
@@ -143,7 +145,7 @@ function AdminMemberListPage() {
                 </div>
                 {/* <!-- ======================= 영화 검색 ========================= --> */}
                 <div className="admmin_member_search_div">
-                    <div className="search_form">
+                    <div className="member_search_form">
                         <form action="">
                             {/* <!-- 영화 검색 --> */}
                             <input type="text" name="" id="" placeholder="회원 검색" />
@@ -151,7 +153,7 @@ function AdminMemberListPage() {
                         </form>
 
                     </div>
-                    <div className="edit_btn">
+                    <div className="member_edit_btn">
                         {/* <!-- 영화 추가/삭제 버튼 --> */}
                         <button className="delete_member">회원 삭제</button>
                     </div>

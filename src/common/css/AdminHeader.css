@@ -7,15 +7,15 @@
 }
 .menu{
     width: 100%;
-	height: 100%;
+	/* height: 100%; */
 
 
 }
-div Link{
+div a{
 	display: block;
 }
 
-Link{
+a{
 	color: #000000;
 }
 
@@ -30,13 +30,13 @@ Link{
 	font-weight: 600;
 	/* overflow: hidden; */
 	color: black;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
-.menu_div div Link::after{
+.menu div a::after{
 	
 	content: " ";
-	width: 239px;
-	height: 50px;
+	width: 100%;
+	height: 100%;
 	background-color: #000;
 	position: absolute;
 	transition: 0.3s;
@@ -47,15 +47,15 @@ Link{
 
 }
 
-.menu_div Link:hover ::after{
+.menu div:hover ::after{
 	transform: scaleX(1);
 	/* left: 0; */
 
 }
-.menu_div:hover div{
+.menu div:hover a{
 	color: white;
 }
 
-.menu_div:hover div{
+.menu:hover div{
 	color: white;
 }

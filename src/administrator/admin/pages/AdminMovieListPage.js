@@ -16,7 +16,9 @@ function AdminMovieListPage() {
     return (
         <>
             <div className="list_div">
-
+                <div className="admin_movie_haed">
+                    <h2>영화 관리</h2>
+                </div>
                 <div className="admin_movie_list">
                     <div>
                         <ul className="list content">
@@ -136,7 +138,7 @@ function AdminMovieListPage() {
                 </div>
                 {/* <!-- ======================= 영화 검색 ========================= --> */}
                 <div className="admmin_movie_search_div">
-                    <div className="search_form">
+                    <div className="movie_search_form">
                         <form action="">
                             {/* <!-- 영화 검색 --> */}
                             <input type="text" name="" id="" placeholder="영화 검색" />
@@ -144,7 +146,7 @@ function AdminMovieListPage() {
                         </form>
 
                     </div>
-                    <div className="edit_btn">
+                    <div className="movie_edit_btn">
                         {/* <!-- 영화 추가/삭제 버튼 --> */}
                         <button className="add_movie" onclick="location.href='admin_movie_upload.html' ">영화 추가</button>
                         <button className="delete_movie">영화 삭제</button>
