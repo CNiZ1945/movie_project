@@ -16,12 +16,14 @@ function CustomerPage() {
 
     return (
         <>
+
         <div className='mainbody'>
             
         <Header />
         <Outlet />
         {/* <Footer /> */}
         </div>
+
         </>
     );
 
