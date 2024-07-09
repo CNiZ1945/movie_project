@@ -121,6 +121,9 @@ figcaption{
 .MainMoviePoster{
     width: 200px;
     height: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
 /* 포스터 제목 css */
@@ -146,17 +149,18 @@ figcaption{
 .movie_list_poster:hover{
     transition: 0.3s;
     transform: translateY(-10px);
-    box-shadow: 5px 5px 10px rgb(255,255,255);
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 
 .movie_poster{
     transition: 0.3s;
     transform: scale(1);
 }
-.movie_poster:hover{
-    transform: scale(1);
-}
 
+.movie_list_poster:hover .MainMoviePoster{
+    /* transition: 0.3s; */
+    border: 2px solid rgb(0, 0, 0);
+}
 
 
 /* ============================ 영화 리뷰 추천 ================================ */

@@ -17,7 +17,7 @@ function AdminNoitceListPage() {
                 <h2>공지사항</h2>
             </div>
             <div className="notice_link">
-                <span><Link to="/Notice">자세히 보러 가기 {'>'}</Link></span>
+                <span><Link to="/user/Notice" className='black'>자세히 보러 가기 {'>'}</Link></span>
             </div>
 
             <div className="admin_notice_list_menu">
@@ -30,61 +30,55 @@ function AdminNoitceListPage() {
             {/* <!-- 공지사항 리스트 --> */}
             <div className="admin_notice_list">
                 <ul className="admin_notice_list_ul">
-                    <li>1</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>2</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>3</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>4</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>3</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>5</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>6</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>7</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>8</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
-                    <li>2024.06.26</li>
-                </ul>
-                <ul className="admin_notice_list_ul">
-                    <li>9</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
                 <ul className="admin_notice_list_ul">
                     <li>10</li>
-                    <li><Link to="/View">공지사항 1</Link></li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
                     <li>2024.06.26</li>
                 </ul>
-
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
+                <ul className="admin_notice_list_ul">
+                    <li>10</li>
+                    <li><Link to="/user/Notive/View" className='black'>공지사항 1</Link></li>
+                    <li>2024.06.26</li>
+                </ul>
             </div>
             <div className="admin_notice_page">
                 <ul className="admin_notice_page_ul">

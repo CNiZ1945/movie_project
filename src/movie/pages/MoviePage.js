@@ -1,11 +1,14 @@
 import React from 'react';
 
+import MovieTab from '../components/MovieTab';
 
+
+
+// css
 import '../../common/css/MoviePage.css';
 
+
 function MoviePage() {
-
-
 
 
 
@@ -16,112 +19,46 @@ function MoviePage() {
     return (
         <>
             <div className="movie">
-                <img src="img/the_ring_poster.webp" alt="" className="movie_bg" />
+                <img src={"https://upload.wikimedia.org/wikipedia/ko/9/90/%EB%B0%98%EC%A7%80%EC%9D%98%EC%A0%9C%EC%99%95%EC%99%95%EC%9D%98%EA%B7%80%ED%99%98_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"} alt="" className="movie_bg" />
                 <div className="movie_explain">
                     {/* <!-- 영화 상세 설명 --> */}
 
                     <div className="book_mark">
                         <button>&#10084;</button>
                     </div>
-                    <div className="explain">
+                    <div className="explainDiv">
 
-                        <div className="title">
-                            <ul>
-                                <li className="movie_title">영화 제목: 반지의 제왕</li>
+                        <div className="explain">
+                            <ul className='explainUl'>
+                                <li className="movieTitle">반지의 제왕</li>
+                                <li className="movieDirector">영화 감독
+                                    <ul>
+                                        <li>
+                                            <img src='https://i.namu.wiki/i/uFwTdPAObYZAyKtVHdPu8RisCLkQI0YYkWR4hRMV_lu_1-d_UmEPnn-lHdYoY-xf10I9ZvbatXFcPkO-ROoLplvyw0_R-B4QVzNFaJixGPvwrCRkx9RkKm8CJKl5vvl98YlKACeYUx0qzTvLkS6AdQ.webp' className='MovieDirectorImg' />
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="movie_actor">영화 배우
+                                    <ul>
+                                        <li><img src='https://i.namu.wiki/i/yGYwqKnUsr2rIYRo1-mqPvKtL5BKLx9JQx_dM4AlMVQSaJdilOVJCsNX3AzujLfLAnJO2qVNMGE5TgpRy4ZlpeNXZtMeffv-xVwGGL7vGYgnkN8ZRDP3jfgnv6QlVEmcIVzcUs1mTCmbXcKGVoRwpA.webp' className='MovieActorImg' /></li>
+                                        <li><img src='https://i.namu.wiki/i/JogEPqD4IJ-y4grzUjUnIeU1PZFKe9yHeOeJgQ5qsT1DbJnukIn6iQNRZp9qegdKcZXY503_Va08dpITUY_ofw-1Zm_G5w5T-MbHiC85RXyPlrJlt7jB4giPd6mUE2OOV4eep2aAWmlY27bEvY1LcA.webp' className='MovieActorImg' /></li>
+                                        <li><img src='https://i.namu.wiki/i/3fDHRKbvKW6sn3swaoQ3Gj670M9MC3upIL_TqCIsL-_D1o77opQ9DbvY-IvnF4ZfUxQ3iz-c__Rfls-LjQhyvW3GyTKw_TTYyu_pRbWwfTl2ph4XLpVVX7FQ9hV_Q6vdvvcVUoqeU3Dow2WIdXn-2A.webp' className='MovieActorImg' /></li>
+                                        <li><img src='https://i.namu.wiki/i/MH8lea6rAYQH3aJuG78Alcin8BuKksl7_J-as32jHisxP0tMhDzsHAWnY-CqBJJnRzyNHbrtvdXO2PWPdtj_UgSv0jy_AR93Kby51KBWAbv7BfYbRfxONZi3PKtnpVw9r5pbkxCajfgqc6DVU7xLjQ.webp' className='MovieActorImg' /></li>
+                                        <li><img src='https://i.namu.wiki/i/6bVvkMsD2mwAQCav0wp-OljQCc1AhwxklUT83xs2hiOy7DdEF8126qORns-Hig58azrXJ2zvEvZyXDovNOTMeoTele6Aj18dWA2M9NDoXUakIrBQ1djvppxfg8bLj0aUUMltmY346sf9Pc-4OhOvlQ.webp' className='MovieActorImg' /></li>
+                                    </ul>
+                                </li>
                                 <li className="movie_genre">영화 장르: 판타지</li>
-                                <li className="movie_director">영화 감독: 피터 잭슨</li>
-                                <li className="movie_actor">영화 배우: 배우 1, 배우 2, 배우 3, 배우 4, 배우 5</li>
                                 <li className="movie_time">영화 시간: 120분</li>
                                 <li className="movie_year">개봉 년도: 2001년</li>
-                                <li className="movie_content">영화 내용: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ea, iusto eligendi earum amet incidunt vitae odit enim assumenda sit, nesciunt est nam ut neque? Hic, similique eaque? Deserunt, harum.</li>
                                 <li className="movie_age">연령 제한: 12세 이상 관람가</li>
+                                <li className="movie_content">영화 내용: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ea, iusto eligendi earum amet incidunt vitae odit enim assumenda sit, nesciunt est nam ut neque? Hic, similique eaque? Deserunt, harum.</li>
                             </ul>
                         </div>
                         {/* <!-- 탭 목차 영역 --> */}
-                        <div className="tab">
+                     
+                            {MovieTab()}
 
-                            <div className="tab_menu">
-                                <ul className="tab-menu-ul">
-                                    <li><a href="#review_div">리뷰</a></li>
-                                    <li><a href="#preview_div">예고편</a></li>
-                                </ul>
-                            </div>
-                            {/* <!-- 탭 내용 영역 --> */}
-                            <div className="tab-content">
-                                <div id="still_cut_div">
-                                    {/* <!-- 스틸컷 --> */}
-                                    <ul className="still_cut">
-                                        <li><img src="img/dune.jpg" alt="" /></li>
-                                        <li><img src="img/half-life-3-pc-game-cover.jpg" alt="" /></li>
-                                        <li><img src="img/harry.webp" alt="" /></li>
-                                    </ul>
-                                </div>
-                                <div id="review_div">
-                                    {/* <!-- 리뷰 --> */}
-                                    <ul className="review_ul my_review">
-                                        <li className="review_writer">본인</li>
-                                        <li className="review_content">여기는 자기 리뷰로 고정</li>
-                                        <li className="review_time">24-06-18</li>
-                                        <li className="review_star">4.5/5</li>
-                                        <li className="review_delete"><i className="fa-solid fa-bars"></i></li>
-                                    </ul>
-                                    <ul className="review_ul">
-                                        <li className="review_writer">jj</li>
-                                        <li className="review_content">Best of all continuous movies. I love it.</li>
-                                        <li className="review_time">24-06-18</li>
-                                        <li className="review_star">4.5/5</li>
-                                        <li className="review_delete"></li>
-
-                                    </ul>
-                                    <ul className="review_ul">
-                                        <li className="review_writer">jmoda</li>
-                                        <li className="review_content">I already tried that one, and didn't work that much.</li>
-                                        <li className="review_time">24-06-18</li>
-                                        <li className="review_star">5/5</li>
-                                        <li className="review_delete"></li>
-
-                                    </ul>
-                                    <ul className="review_ul">
-                                        <li className="review_writer">difs</li>
-                                        <li className="review_content">The complete Middle-Earth Saga:</li>
-                                        <li className="review_time">24-06-18</li>
-                                        <li className="review_star">4/5</li>
-                                        <li className="review_delete"></li>
-
-                                    </ul>
-                                    <ul className="review_ul">
-                                        <li className="review_writer">jj</li>
-                                        <li className="review_content">this movie is sick put that crazy ugly little guy creeps me out then i start laughing at its face</li>
-                                        <li className="review_time">24-06-18</li>
-                                        <li className="review_star">1/5</li>
-                                        <li className="review_delete"></li>
-
-                                    </ul>
-                                    {/* <!-- 리뷰 페이지 번호 창 --> */}
-                                    <div className="review_no">
-                                        <ul className="review_no_ul">
-                                            <li>&lt;</li>
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                            <li>8</li>
-                                            <li>9</li>
-                                            <li>10</li>
-                                            <li>&gt;</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="preview_div">
-                                    <iframe width="400" height="200" src="https://www.youtube.com/embed/_bo1XFtQbMs?si=lWfv8lVyn-OtKmty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                                </div>
-
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="bg">

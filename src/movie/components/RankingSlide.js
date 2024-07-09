@@ -31,7 +31,7 @@ export function RankingSlide() {
 
                     <ul className="slide_ul">
                         <li>
-                            <Link to="MoviePage">
+                            <Link to="/user/MoviePage">
                                 <figure>
                                     <img src={"https://www.dune2.co.kr/assets/images/desktopbanner.jpg"} alt="" className="img_slide" />
                                     <figcaption>
@@ -44,7 +44,7 @@ export function RankingSlide() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="MoviePage">
+                            <Link to="/user/MoviePage">
                                 <figure>
                                     <img src={"https://gaming-cdn.com/images/products/6694/616x353/half-life-3-pc-game-cover.jpg?v=1707324174"} alt="" className="img_slide" />
                                     <figcaption>
@@ -57,7 +57,7 @@ export function RankingSlide() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="MoviePage">
+                            <Link to="/user/MoviePage">
                                 <figure>
                                     <img src={"https://deadline.com/wp-content/uploads/2023/04/harry-potter.jpg"} alt="" className="img_slide" />
                                     <figcaption>
@@ -70,7 +70,7 @@ export function RankingSlide() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="MoviePage">
+                            <Link to="/user/MoviePage">
                                 <figure>
                                     <img src={"https://image.cine21.com/resize/IMGDB/article/2004/1228/medium/154347_pl483[W578-].jpg"} alt="" className="img_slide" />
                                     <figcaption>
@@ -83,7 +83,7 @@ export function RankingSlide() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="MoviePage">
+                            <Link to="/user/MoviePage">
                                 <figure>
                                     <img src={"https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/cmLZ/image/2IUI0A_hLxCZXtOiMdQAfuIVKaY.jpg"} alt="" className="img_slide" />
                                     <figcaption>

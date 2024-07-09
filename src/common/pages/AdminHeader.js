@@ -17,22 +17,22 @@ function AdminHeader() {
             <div className='menu_div'>
                 <div className='menu'>
                     <div>
-                        <Link to="/">
+                        <Link to="/" className='black'>
                             홈페이지로 돌아가기
                         </Link>
                     </div>
                     <div>
-                        <Link to="/Admin/Notice">
+                        <Link to="/Admin/Notice" className='black'>
                             공지 사항
                         </Link>
                     </div>
                     <div>
-                        <Link to="/Admin/MemberList">
+                        <Link to="/Admin/MemberList" className='black'>
                             회원 관리
                         </Link>
                     </div>
                     <div>
-                        <Link to="/Admin/MovieList">
+                        <Link to="/Admin/MovieList" className='black'>
                             영화 관리
                         </Link>
                     </div>

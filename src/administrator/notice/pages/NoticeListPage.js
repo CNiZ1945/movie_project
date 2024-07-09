@@ -33,7 +33,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -44,7 +44,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -55,7 +55,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -66,7 +66,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -77,7 +77,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -88,7 +88,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -99,7 +99,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -110,7 +110,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -121,7 +121,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -132,7 +132,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24
@@ -143,7 +143,7 @@ function NoticeListPage() {
                             1
                         </li>
                         <li>
-                            <Link to="/Notice/View">공지사항 1</Link>
+                            <Link to="/user/Notive/View">공지사항 1</Link>
                         </li>
                         <li>
                             2024-06-24

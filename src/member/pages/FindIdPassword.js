@@ -33,6 +33,8 @@ function FindIdPassword() {
                     {/* <!-- 아이디찾기 글쓰기 박스 --> */}
                     <div className="f_id">
                         <form action="" method='post'>
+                            <label>이름</label>
+                            <input type='text'  />
                             <label for="useremail">이메일</label>
                             <input type="text" id="useremail" name="useremail" required /><br />
                             {/* <!-- 아이디 찾기 버튼 --> */}

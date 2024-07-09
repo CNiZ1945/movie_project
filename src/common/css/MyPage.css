@@ -1,0 +1,137 @@
+
+/* ====================================== 찜한 컨텐츠 ===================================  */
+.bookmark{
+    width: 100%;
+}
+
+.bookmark_head{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+.bookmark_movie{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bookmark_movie_ul{
+    display: flex;
+}
+.bookmark_movie img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+.bookMarkPoster{
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 포스터 제목 css */
+.bookMarkPoster a::after{
+    content: "반지의 제왕";
+    font-size: 2rem;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    position: absolute;
+    transition: 0.5s;
+    bottom: -100px;
+    left: 0%;
+
+}
+/* 포스터 hover시 제목 올라오는 효과*/
+.bookMarkPoster:hover ::after{
+    bottom: 5px;
+}
+
+/* 포스터 hover시 포스터가 올라가고 뒤에 그림자 효과 */
+.bookMarkPoster:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+    /* box-shadow: 5px 5px 10px rgb(255, 255, 255); */
+}
+
+/* ============================== 나의 리뷰  ===================================== */
+
+.myreview{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.myreview_head{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* 리뷰 내용 */
+
+.my_review_list{
+    width: 100%;
+}
+.my_review_list_ul{
+    display: flex;
+    width: 80%;
+}
+.my_review_list_ul li{
+    text-align: center;
+    border: 1px solid red;
+}
+
+
+.reviewMovie{
+    width: 20%;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movieReview{
+    width: 55%;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.reviewDate{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.reviewStar{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewBtn{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 리뷰 페이지 버튼 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

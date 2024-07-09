@@ -18,11 +18,11 @@ function UpdatedMovie() {
 
             <div className="movie_img">
                 <ul className="movie_list">
-                <li className="movie_list_poster" ><Link to="/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
-                <li className="movie_list_poster" ><Link to="/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
-                <li className="movie_list_poster" ><Link to="/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
-                <li className="movie_list_poster" ><Link to="/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
-                <li className="movie_list_poster" ><Link to="/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
+                <li className="movie_list_poster" ><Link to="/user/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
+                <li className="movie_list_poster" ><Link to="/user/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
+                <li className="movie_list_poster" ><Link to="/user/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
+                <li className="movie_list_poster" ><Link to="/user/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
+                <li className="movie_list_poster" ><Link to="/user/MoviePage"><img src={ListImg.img} alt="" className='MainMoviePoster' /></Link></li>
 
 
                 </ul>

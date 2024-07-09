@@ -46,8 +46,8 @@ function Header() {
                     </div>
                     <div className="profile_menu">
                         <ul>
-                            <Link to="/MyPage"><li>마이페이지</li></Link>
-                            <Link to="/Notice"><li>공지사항</li></Link>
+                            <Link to="/user/MyPage"><li>마이페이지</li></Link>
+                            <Link to="/user/Notice"><li>공지사항</li></Link>
                             <Link to="/Login"><li>로그인</li></Link>
                         </ul>
                     </div>

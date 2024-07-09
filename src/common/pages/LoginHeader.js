@@ -16,7 +16,7 @@ function LoginHeader() {
 
             <header>
                 <div className="logo">
-                    <Link href="main.html"><img src="img/google_login.png" alt="" /></Link>
+                    <Link href="/"><img src="img/google_login.png" alt="" /></Link>
                 </div>
             </header>
 
