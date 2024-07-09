@@ -44,7 +44,7 @@ function App() {
                     <Route path="/user/MyPage" element={<MyPage />} />
                     <Route path='/user/Notice' element={<NoticeListPage />}  />
                     <Route path='/user/Notive/View' element={<NoticeViewPage />}  />
-                    <Route path='admin/Notice/Write' element={<NoticeWritetPage />}  />
+                    <Route path='/admin/Notice/Write' element={<NoticeWritetPage />}  />
 
                 </Route>
                 
@@ -59,10 +59,10 @@ function App() {
                 <Route element={<LoginOutlet />} >
                     {/* login header 공유 페이지 */}
                     <Route path="/Login" element={<LoginPage  />}  />
-                    <Route path="user/ChangePassword" element={<ChangePassword  />}  />
+                    <Route path="/user/ChangePassword" element={<ChangePassword  />}  />
                     <Route path="/FindIdPassword" element={<FindIdPassword  />}  />
                     <Route path="/SignUp" element={<SignUp  />}  />
-                    <Route path="user/WithdrawMember" element={<WithdrawMember  />}  />
+                    <Route path="/user/WithdrawMember" element={<WithdrawMember  />}  />
 
 
 

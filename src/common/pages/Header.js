@@ -25,7 +25,7 @@ function Header() {
                 <div className="header_right">
                     <div className="logo_img">
                         {/* <!-- 로고 이미지 --> */}
-                        <Link to="/"><img src="http://placehold.it/70X70" alt="" /></Link>
+                        <Link to="/" className='white'><img src="http://placehold.it/70X70" alt="" /></Link>
                     </div>
                 </div>
                 {/* <!-- 검색창 --> */}
@@ -42,13 +42,13 @@ function Header() {
 
                     <div className="profile">
                         {/* <!-- 동그라미 프로필 공간 --> */}
-                        <Link to="Admin/Notice"> 임시 <br />관리자 페이지</Link>
+                        <Link to="Admin/Notice" className='white'> 임시 <br />관리자 페이지</Link>
                     </div>
                     <div className="profile_menu">
                         <ul>
-                            <Link to="/user/MyPage"><li>마이페이지</li></Link>
-                            <Link to="/user/Notice"><li>공지사항</li></Link>
-                            <Link to="/Login"><li>로그인</li></Link>
+                            <Link to="/user/MyPage" className='white'><li>마이페이지</li></Link>
+                            <Link to="/user/Notice" className='white'><li>공지사항</li></Link>
+                            <Link to="/Login" className='white'><li>로그인</li></Link>
                         </ul>
                     </div>
                     {/* <!-- 추후에 로그인후에 로그아웃으로 바뀌도록 작성 --> */}

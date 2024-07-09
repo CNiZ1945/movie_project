@@ -10,7 +10,7 @@
     font-size: 2rem;
 }
 .bookmark_movie{
-    width: 100%;
+    width: 70%;
     margin-top: 10px;
 }
 
@@ -60,7 +60,7 @@
 .myreview{
     width: 100%;
     margin-top: 20px;
-    
+ 
 }
 
 .myreview_head{
@@ -72,15 +72,24 @@
 /* 리뷰 내용 */
 
 .my_review_list{
+    margin-top: 10px;
     width: 100%;
 }
 .my_review_list_ul{
+    width: 60%;
+    /* margin-top: 10px; */
     display: flex;
-    width: 80%;
+}
+.my_review_list_ul:nth-child(2n-1){
+    background-color: #5e5e5e;
+}
+
+.my_review_list_ul:hover{
+    background-color: #6385ce;
 }
 .my_review_list_ul li{
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -120,18 +129,84 @@
     align-items: center;
 }
 
-/* 리뷰 페이지 버튼 */
+/* 리뷰 페이지 버튼*/
+.myreview_page{
+    width: 100%;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
 
 
+.myreview_page_ul{
+    width: 50%;
+    
+    /* border: 1px solid red; */
+    display: flex;
+}
+.myreview_page_ul li{
+    width: 100%;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+/* ======================== 회원 정보 수정 ============================== */
+.member_form{
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.member_info_head{
+    font-size: 2rem;
+}
+
+.member_info{
+    /* border: 1px solid red; */
+    
+    /* text-align: left; */
+}
+.form_div{
+    margin-top: 10px;
+    width: 30%;
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: right;
+}
 
 
+.form_div div:first-child{
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+    /* display: flex; */
+}
 
-
-
-
-
-
-
-
-
-
+.form_div div:last-child{
+    width: 70%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+.form_div div:last-child input{
+    width: 80%;
+    border-radius: 5px;
+    height: 20px;
+}
+.form_div div:last-child button{
+    width: 80%;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+/* submit 버튼 */
+.submit_div{
+    width: 30%;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.submit_div input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}

@@ -29,7 +29,7 @@ function MyReview() {
                         reviewInfo.map((myreview, index) => (
                             <ul className="my_review_list_ul" key={index}>
                                 <li className="reviewMovie">{myreview.myreviewmovie}</li>
-                                <li className="movieReview"><Link to="/MoviePage">{myreview.myreviewContent}</Link></li>
+                                <li className="movieReview"><Link to="/MoviePage" className='white'>{myreview.myreviewContent}</Link></li>
                                 <li className="reviewDate">{myreview.myreviewTime}</li>
                                 <li className="reviewStar">{myreview.myreviewStar}</li>
                                 <li className="reviewBtn">{myreview.myreviewDelete}</li>
