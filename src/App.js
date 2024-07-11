@@ -29,6 +29,8 @@ import AdminNoticeListPage from "./administrator/admin/pages/AdminNoticeListPage
 import AdminMovieListPage from "./administrator/admin/pages/AdminMovieListPage";
 import AdminMovieUploadPage from "./administrator/admin/pages/AdminMovieUploadPage";
 import AdminMemberListPage from "./administrator/admin/pages/AdminMemberListPage";
+import AdminMovieUploadFilePage from './administrator/admin/pages/AdminMovieUploadFilePage';
+import MoviePlayPage from './movie/pages/MoviePlayPage';
 
 
 function App() {
@@ -40,6 +42,7 @@ function App() {
                 <Route path="/" element={<CustomerOutlet />} >
                     <Route index path="/" element={<MainPage />} />
                     <Route path="/user/MoviePage" element={<MoviePage />} />
+                    <Route path="/user/MoviePlay" element={<MoviePlayPage />} />
                     <Route path="/MovieSearch" element={<MovieSearch />} />
                     <Route path="/user/MyPage" element={<MyPage />} />
                     <Route path='/user/Notice' element={<NoticeListPage />}  />
@@ -53,6 +56,7 @@ function App() {
                     <Route path="admin/Notice" element={<AdminNoticeListPage  />}  />
                     <Route path="admin/MovieList" element={<AdminMovieListPage  />}  />
                     <Route path="admin/MovieUpload" element={<AdminMovieUploadPage  />}  />
+                    <Route path="admin/MovieUploadFile" element={<AdminMovieUploadFilePage  />}  />
                     <Route path="admin/MemberList" element={<AdminMemberListPage  />}  />
                 </Route>
                 

@@ -87,6 +87,7 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
         ⨽ AdminNoticeListPage.js - 공지 사항 리스트 페이지(관리자용)<br/> 
         ⨽ AdminMovieListPage.js - 영화 리스트 페이지<br/>
         ⨽ AdminMovieUploadPage.js - 영화 업로드 페이지<br/>
+        ⨽ AdminMovieUploadFilePage.js - 영화 파일 업로드 페이지<br/>
         ⨽ AdminMemberListPage.js - 회원 관리 페이지<br/>
 
 ⨽ notice - 공지 사항<br/>
@@ -101,12 +102,9 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
 
 ### member
 ⨽ component<br/>
-    ⨽ 로그인<br/>
-    ⨽ 회원 가입<br/>
-    ⨽ 비밀번호 변경 & 회원 탈퇴<br/>
     ⨽ 회원 정보<br/>
     ⨽ 영화 북마크<br/>
-    ⨽ 리뷰 추가 & 삭제<br/>
+    ⨽ 리뷰<br/>
 
 ⨽ pages<br/>
     ⨽ LoginPage.js - 로그인 페이지<br/>
@@ -118,11 +116,11 @@ pages: 페이지를 담당하는 js를 모아두는 폴더
 
 ### movie
 ⨽ component<br/>
-    ⨽ 영화 상세 내용<br/>
-    ⨽ 영화 순위<br/>
-    ⨽ 영화 검색<br/>
-    ⨽ 최신 영화<br/>
-    ⨽ 영화 추천<br/>
+    ⨽ 영화 탭<br/>
+    ⨽ 랭킹 슬라이드<br/>
+    ⨽ 리뷰 추천<br/>
+    ⨽ 별점 추천<br/>
+    ⨽ 업로드된 영화<br/>
 ⨽ pages<br/>
     ⨽ MainPage.js - 메인 페이지(영화 순위 + 최신 영화 + 영화 추천)<br/>
     ⨽ MoviePage.js - 영화 상세 내용 페이지<br/>
@@ -160,3 +158,7 @@ common - 공통으로 사용되는 요소들을 모아놓는 폴더<br/>
 07-09
 Link 태그안에 className="black" : 링크 글자를 검정색으로 변경
 Link 태그안에 className="white" : 링크 글자를 흰색으로 변경
+
+07-11 관리자 영화 업로드 페이지를 2장으로 작성
+AdminMovieUploadPage - 제목, 감독, 배우, 장르, 줄거리, 청소년 관람 여부, 제작년도, 시간
+AdminMovieUploadFilePage - 예고편 영상 포스터

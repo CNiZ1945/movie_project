@@ -42,7 +42,7 @@ function Header() {
 
                     <div className="profile">
                         {/* <!-- 동그라미 프로필 공간 --> */}
-                        <Link to="Admin/Notice" className='white'> 임시 <br />관리자 페이지</Link>
+                        <Link to="/admin/Notice" className='white'> 임시 <br />관리자 페이지</Link>
                     </div>
                     <div className="profile_menu">
                         <ul>

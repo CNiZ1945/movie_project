@@ -43,7 +43,7 @@
 /* 영화 상세 설명 */
 .movie_explain{
     width: 60%;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
     display: flex;
     margin: 0;
     background: rgb(0,0,0);
@@ -51,10 +51,12 @@
     z-index: 1;
 
 }
-
+.explainDiv{
+    width: 100%;
+}
 .explain{
     width: 100%;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 .explainUl li{
     width: 95%;
@@ -65,9 +67,16 @@
     font-size: 2rem;
     /* border: 1px solid red; */
 }
-
-.movie_actor ul{
+.movieDirector ul{
     display: flex;
+    overflow-x: auto;
+}
+.movie_actor ul{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* overflow: hidden; */
+    overflow-x: auto;
     
 }
 

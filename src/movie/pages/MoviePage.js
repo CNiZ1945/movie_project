@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MovieTab from '../components/MovieTab';
-
+import {useNavigate} from "react-router-dom";
 
 
 // css
@@ -10,7 +10,7 @@ import '../../common/css/MoviePage.css';
 
 function MoviePage() {
 
-
+    const navigate = useNavigate();
 
 
 
@@ -66,7 +66,7 @@ function MoviePage() {
                 </div>
                 {/* <!-- 영화 재생 버튼 --> */}
                 <div className="button">
-                    <button className="watch_movie_btn">영화 보러 가기</button>
+                    <button className="watch_movie_btn" onClick={() => navigate("/user/MoviePlay")} >영화 보러 가기</button>
 
                 </div>
             </div>

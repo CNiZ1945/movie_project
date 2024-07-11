@@ -1,16 +1,86 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
 
 import '../../../common/css/AdminMovieList.css';
 
 function AdminMovieListPage() {
 
+    const adminMovieInfo = [
+        {
+            movieId : "1234567890",
+            movieTitle: "qwertyuiopasdfghjklzxcvbnm",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "1",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "2",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "3",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "4",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "5",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "6",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "7",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "8",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
+        {
+            movieId : "9",
+            movieTitle: "반지의 제왕",
+            movieGenre: "판타지",
+            movieDirector: "피터 잭슨",
+            moviePlayTime: "120분",
+        },
 
 
+    ]
 
-
-
-
-
+    const navigate = useNavigate();
 
 
     return (
@@ -35,87 +105,17 @@ function AdminMovieListPage() {
                     </div>
                     <div>
                         {/* <!-- 영화 리스트 --> */}
-                        <ul className="list ">
+                        {adminMovieInfo.map((movieinfo, index) => (
+                        <ul className="list " key={index}>
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">111111</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">123456789</li>
-                            <li className="movie_title">123456789012345678901234567890</li>
-                            <li className="movie_genre">판타지, sf, 스릴러</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">3333333</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">4444444</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">555555</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">6666666</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">77777777</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">8888888</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">9999999</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
-                        </ul>
-                        <ul className="list end">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="movie_id">11100111</li>
-                            <li className="movie_title">반지의 제왕</li>
-                            <li className="movie_genre">판타지</li>
-                            <li className="movie_director">피터 잭슨</li>
-                            <li className="movie_time">120분</li>
+                            <li className="movie_id">{movieinfo.movieId}</li>
+                            <li className="movie_title">{movieinfo.movieTitle}</li>
+                            <li className="movie_genre">{movieinfo.movieGenre}</li>
+                            <li className="movie_director">{movieinfo.movieDirector}</li>
+                            <li className="movie_time">{movieinfo.moviePlayTime}</li>
                         </ul>
 
+                        ))}
                     </div>
                 </div>
 
@@ -148,7 +148,8 @@ function AdminMovieListPage() {
                     </div>
                     <div className="movie_edit_btn">
                         {/* <!-- 영화 추가/삭제 버튼 --> */}
-                        <button className="add_movie" onclick="location.href='admin_movie_upload.html' ">영화 추가</button>
+                        <button className="add_movie" onClick={() => navigate("/admin/MovieUpload")}>영화 추가</button>
+                        <button className="change_movie" onClick={() => navigate("/admin/MovieUpload")}>영화 수정</button>
                         <button className="delete_movie">영화 삭제</button>
                     </div>
 

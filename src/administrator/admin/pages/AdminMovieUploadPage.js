@@ -1,4 +1,5 @@
 import React from 'react';
+import {useNavigate} from "react-router-dom";
 
 import '../../../common/css/AdminMovieUpload.css';
 
@@ -9,7 +10,7 @@ function AdminMovieUploadPage() {
 
 
 
-
+    const navigate = useNavigate();
 
 
 
@@ -18,11 +19,12 @@ function AdminMovieUploadPage() {
 
     return (
         <>
-            <div className="admin_notice_haed">
-                <h2>공지사항</h2>
+        <div className='UploadBody'>
+            <div className="AdminUploadHead">
+                <h2>영화 업로드</h2>
             </div>
-            <div className="upload_body">
-                <form action="" className="form">
+            <div className="UploadInfo">
+                <form action="" className="UploadInfoForm">
 
                     <label for="" className="label">
                         <div>제목: </div>
@@ -102,20 +104,16 @@ function AdminMovieUploadPage() {
                         </div>
                     </label>
 
-                    <label for="">
-                        <div>영상 올리기</div>
-                        <div>
-                            <input type="file" name="" id="" required />
+                    <div>
+                        <input type="submit" name="" id="upload" value="다음" className="MovieUploadBtn" onClick={() => navigate("/admin/MovieUploadFile")} />
+                    </div>
 
-                        </div>
-                    </label>
-                    {/* <!-- <button>영상올리기(파일업로드)</button> --> */}
-
-                    <input type="submit" name="" id="upload" value="업로드" className="submit" />
 
                 </form>
 
             </div>
+
+        </div>
 
 
 
