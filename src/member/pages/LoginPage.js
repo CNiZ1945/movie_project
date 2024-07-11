@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import  '../../common/css/Login.css';
+// import  '../../common/css/Login.css';
 import google_login from '../../common/img/google_login.png';
 
 

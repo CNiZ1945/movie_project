@@ -15,8 +15,8 @@ import MovieSearch from './movie/pages/MovieSearchPage';
 // member
 import MyPage from './member/pages/MyPage';
 import ChangePassword from './member/pages/ChangePassword';
-import FindIdPassword from './member/pages/FindIdPassword';
-import SignUp from './member/pages/SignUp';
+import FindIdPassword from './member/pages/FindIdPasswordPage';
+import SignUp from './member/pages/SignUpPage';
 import WithdrawMember from './member/pages/WithdrawMember';
 import LoginPage from './member/pages/LoginPage';
 

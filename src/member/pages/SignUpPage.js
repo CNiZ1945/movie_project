@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../common/css/SignUp.css';
+// import '../../common/css/SignUp.css';
 
 
 
