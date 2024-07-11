@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {useNavigate} from "react-router-dom";
 
 
 
@@ -7,7 +7,7 @@ function ChangePassword() {
 
 
 
-
+    const navigate = useNavigate();
 
 
 
@@ -48,7 +48,7 @@ function ChangePassword() {
             </div>
             {/* <!-- 돌아가기 박스 --> */}
             <div className="return_button">
-                <button>돌아가기</button>
+                <button onClick={() => navigate(-1)}>돌아가기</button>
             </div>
 
 

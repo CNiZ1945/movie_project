@@ -53,7 +53,7 @@ function MemberInfo() {
                             <label for="passwordr">비밀번호: </label>
                         </div>
                         <div>
-                            <button type='button' onClick={() => {Navigate('/user/WithdrawMember')}}>비밀 번호 변경</button>
+                            <button type='button' onClick={() => {Navigate('/user/ChangePassword')}}>비밀 번호 변경</button>
                         </div>
                     </div>
                     <div className="form_div">

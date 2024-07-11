@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {useNavigate} from 'react-router-dom';
 import "../../common/css/WithdrawMember.css"
 import WithdrawModal from "../component/WithdrawModal"
 
@@ -8,7 +9,7 @@ function WithdrawMember() {
 
     const [modal, setModal] = useState(false);
 
-
+    const navigate = useNavigate()
 
 
 
@@ -37,7 +38,7 @@ function WithdrawMember() {
                 </form>
             </div>
             <div className="main_page">
-                <button>돌아가기</button>
+                <button onClick={() => navigate(-1)}>돌아가기</button>
             </div>
 
         </>
