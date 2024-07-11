@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../common/css/SignUp.css';
 
 
 
@@ -24,66 +24,57 @@ function SignUp() {
 
 
         <div className="wrap">
-            {/* <!-- 보안성을 위해 method="post" 추가 --> */}
-            <form action="" method="post">
+            <div className='signupheder'><h2>회원가입</h2></div>
+           
+            <form >
                 <div className="inner">
-                    {/* <!-- 아이디 --> */}
-                    <div id="id">
-                        <h3><label for="username">아이디</label></h3>
+                    {/* 아이디 */}
+                    <div className='idDiv'>
+                    <div className='username2'>아이디<input type="id"/></div>
+                    <div className='idbutton'><button type="button">중복 확인</button></div>
                     </div>
-                    <div id="name">
-                        <input type="text" id="username" name="username" required />
-                        {/* <!-- <button className="conform_ID">아이디 확인</button> --> */}
-                    </div>
-                    {/* <!-- 비밀번호 --> */}
-                    <div id="pw">
-                        <h3><label for="password">비밀번호</label></h3>
-                    </div>
-                    <div id="pass">
-                        <input type="password" id="password" name="password" required />
-                    </div>
-                    <div id="conform_pw">
-                        <h3><label for="password">비밀번호 재확인</label></h3>
-                    </div>
-                    <div id="conform_pass">
-                        <input type="password" id="conform_password" name="password" required />
-                    </div>
+
+                    {/* 비밀번호 */}
+                    <div className='password2'>비밀번호  <input type="password"/></div>
+                    <div className='passwordcheck'>비밀번호 확인 <input type="password"/></div>
+
+                    {/* 이름 */}
+                    <div className='name2'>이름  <input type="name"/></div>
+
                     {/* <!-- 이메일 --> */}
-                    <div id="em">
-                        <h3><label for="email">이메일</label></h3>
+                    <div className='emailDiv'>
+                    <div className='email2'>이메일 <input type="email"/></div>
+                    <div className='emailbutton'><button type="button">이메일 인증</button></div> 
                     </div>
-                    <div id="mail">
-                        <input type="text" id="email" name="email" required />
+                    {/*이메일 받은 코드입력 */}
+                    <div className='emailDiv'>
+                    <div className='email2'>인증 코드 <input type="text"/></div>
+                    <div className='emailbutton'><button type="button">인증</button></div> 
                     </div>
-                    {/* <!-- 연락처 --> */}
-                    <div id="ph">
-                        <h3><label for="phone">연락처</label></h3>
-                    </div>
-                    <div id="number">
-                        <input type="text" id="phone" name="phone" required />
-                    </div>
-
-
+                    
+                    {/* <!-- 생년월일 --> */}                 
+                    <div className='bu'>생년월일 <input type="date"/></div>
                     <div className="gender">
+
+                        {/* <!-- 성별 --> */}
                         <div id="mg">
-                            <h3><label for="email">남녀선택</label></h3>
+                            <label for="gender2">남녀선택</label>
                         </div>
-                        <div className="gd">
+
+                        <div className="asd">
                             <select id="gender" className="sel">
                                 {/* <!-- 보낼 값 --> */}
-                                <option value="male">남성</option>
-                                <option value="female">여성</option>
+                                <option value="남성">남성</option>
+                                <option value="여성">여성</option>
                             </select>
                         </div>
+
                         {/* <!-- 남자는 value값 male 여자는 value값 female --> */}
                     </div>
-                    <div className="birth">
-                        <div id="bt">
-                            <h3><label for="birth">생년월일</label></h3>
-                        </div>
-                        <input type="date" id="date" name="date" required />
-                    </div>
+                    <div className='phonnumber'>휴대폰 번호<input type="tel"/></div>                    
                 </div>
+                        
+                
                 {/* <!-- 이용약관 --> */}
                 <div>
                     <h3 className="title">이용약관</h3>

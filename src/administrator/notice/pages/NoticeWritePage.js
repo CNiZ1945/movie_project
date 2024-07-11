@@ -1,4 +1,6 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
+
 
 //css
 import '../../../common/css/NoticeWrite.css'
@@ -6,7 +8,7 @@ import '../../../common/css/NoticeWrite.css'
 function NoticeWritePage() {
 
 
-
+    
 
 
 

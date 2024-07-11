@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import '../../common/css/FindIdPassword.css';
 
 
 
@@ -23,7 +22,7 @@ function FindIdPassword() {
 
     return (
         <>
-            <div className="find">
+            <div className="findId">
                 {/* <!-- 아이디찾기 전체박스 --> */}
                 <div className="find_id">
                     {/* <!-- 아이디찾기 제목박스 --> */}
@@ -33,9 +32,7 @@ function FindIdPassword() {
                     {/* <!-- 아이디찾기 글쓰기 박스 --> */}
                     <div className="f_id">
                         <form action="" method='post'>
-                            <label>이름</label>
-                            <input type='text'  />
-                            <label for="useremail">이메일</label>
+                            <label for="useremail">이메일:</label>
                             <input type="text" id="useremail" name="useremail" required /><br />
                             {/* <!-- 아이디 찾기 버튼 --> */}
                             {/* <!-- <input type="submit" value="로그인하기" onclick="location.href = 'login.html' " > --> */}

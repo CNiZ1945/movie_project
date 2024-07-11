@@ -49,8 +49,15 @@
     box-shadow: 0px 0px 15px rgb(20, 216, 241);
 }
 
-
-
+/* 글쓰기 버튼 */
+.WriteSubmit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.WriteSubmit input{
+    width: 200px;
+    height: 50px;
+}
 
 
 

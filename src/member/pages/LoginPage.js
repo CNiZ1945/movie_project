@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import  '../../common/css/Login.css';
+import google_login from '../../common/img/google_login.png';
 
 
 
-
-
-
-function Login() {
-
+function LoginPage() {
 
 
 
@@ -21,14 +19,16 @@ function Login() {
     return (
 
         <>
+            
             <div className="login-container">
                 <div id="login-header">
                     <h2>로그인</h2>
                 </div>
                 {/* <!-- 구글로 시작하기 버튼 --> */}
 
-                <form action="/login" method="post">
-                    <div className="box">
+                <form>
+                <div className='wrap'>      
+                    <div className="box1">
                         <div className="box2">
                             <label for="username">아이디:</label>
                         </div>
@@ -41,9 +41,10 @@ function Login() {
                             <label for="password">비밀번호:</label>
                         </div>
                         <div className="box3">
-                            <input type="password" id="password" name="password" required />
+                            <input type="password" id="password" name="password" required  />
                         </div>
                     </div>
+                </div>
                     <div className="box4">
                         {/* <!-- 로그인 버튼 --> */}
                         <input type="submit" className="submit" value="로그인" />
@@ -51,10 +52,10 @@ function Login() {
                     </div>
                 </form>
                 <div className="google_login">
-                    <Link to="#"><img src="img/google_login.png" alt="구글로그인버튼" /></Link>
+                    <Link to="#"><img src={google_login} alt="구글로그인버튼" /></Link>
                 </div>
                 <div className="signup">
-                    <div className="signup2">
+                    <div className="signupLink">
                         <Link to="/SignUp">회원가입</Link>
                     </div>
                     <div className="signup3">
@@ -79,4 +80,4 @@ function Login() {
 
 
 
-export default Login;
+export default LoginPage;
