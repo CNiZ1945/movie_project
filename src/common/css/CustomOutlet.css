@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+}
+.mainbody {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(148, 147, 147) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 95%, rgb(148, 147, 147) 100%);
+    color: white;
+}
