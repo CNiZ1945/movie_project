@@ -49,7 +49,7 @@ function MovieTab() {
                                             <li className="reviewContent">{review.reviewContent}</li>
                                             <li className="reviewTime">{review.reviewTime}</li>
                                             <li className="reviewStar">{review.reviewStar}</li>
-                                            <li className="reviewDelete">{review.reviewDelete}</li>
+                                            <li className="reviewDelete"><button className='reviewDeleteBtn'>≡</button></li>
                                         </ul>
                                     ))}
                                 

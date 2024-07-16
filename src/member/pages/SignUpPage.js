@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../../common/css/SignUp.css';
+import '../../common/css/SignUp.css';
 
 
 
@@ -30,30 +30,30 @@ function SignUp() {
                 <div className="inner">
                     {/* 아이디 */}
                     <div className='idDiv'>
-                    <div className='username2'>아이디<input type="id"/></div>
-                    <div className='idbutton'><button type="button">중복 확인</button></div>
+                    <div className='username2'>아이디<input type="id"className='commonpage'/></div>
+                    <button type="button"className='idbutton'>중복 확인</button>
                     </div>
 
                     {/* 비밀번호 */}
-                    <div className='password2'>비밀번호  <input type="password"/></div>
-                    <div className='passwordcheck'>비밀번호 확인 <input type="password"/></div>
+                    <div className='password2'>비밀번호  <input type="password"className='commonpage'/></div>
+                    <div className='passwordcheck'>비밀번호 확인 <input type="password"className='commonpage'/></div>
 
                     {/* 이름 */}
-                    <div className='name2'>이름  <input type="name"/></div>
+                    <div className='name2'>이름  <input type="name"className='commonpage'/></div>
 
                     {/* <!-- 이메일 --> */}
                     <div className='emailDiv'>
-                    <div className='email2'>이메일 <input type="email"/></div>
-                    <div className='emailbutton'><button type="button">이메일 인증</button></div> 
+                    <div className='email2'>이메일 <input type="email"className='commonpage'/></div>
+                    <button type="button"className='idbutton'>이메일<br/>인증</button>
                     </div>
                     {/*이메일 받은 코드입력 */}
                     <div className='emailDiv'>
-                    <div className='email2'>인증 코드 <input type="text"/></div>
-                    <div className='emailbutton'><button type="button">인증</button></div> 
+                    <div className='email2'>인증 코드 <input type="text"className='commonpage'/></div>
+                    <button type="button"className='idbutton'>인증</button>
                     </div>
                     
                     {/* <!-- 생년월일 --> */}                 
-                    <div className='bu'>생년월일 <input type="date"/></div>
+                    <div className='bu'>생년월일 <input type="date"className='commonpage'/></div>
                     <div className="gender">
 
                         {/* <!-- 성별 --> */}
@@ -71,12 +71,12 @@ function SignUp() {
 
                         {/* <!-- 남자는 value값 male 여자는 value값 female --> */}
                     </div>
-                    <div className='phonnumber'>휴대폰 번호<input type="tel"/></div>                    
+                    <div className='phonnumber'>휴대폰 번호<input type="tel"className='commonpage'/></div>                    
                 </div>
                         
                 
                 {/* <!-- 이용약관 --> */}
-                <div>
+                <div className='textfile'>
                     <h3 className="title">이용약관</h3>
                     <div className="text">제1조(목적등)
                         ① 환경영향평가정보지원시스템 인터넷 회원 약관(이하 "본 약관" 이라 합니다)은 이용자가 환경영향평가정보지원시스템에서 제공하는 인터넷 관련 서비스(이하 "서비스"라 합니다)를
@@ -165,12 +165,11 @@ function SignUp() {
                     <label className="custom-checkbox">
                         <input type="checkbox" required />
                         <span className="checkmark">동의(필수)</span>
-
                     </label>
                 </div>
 
                 {/* <!-- 가입하기 버튼 --> */}
-                <button type="submit" onclick="return checkForm()">회원가입</button>
+                <button type="submit"className='signupsubmit'>회원가입</button>
             </form>
         </div>
 
@@ -185,7 +184,6 @@ function SignUp() {
 
 
     );
-
 }
 
 

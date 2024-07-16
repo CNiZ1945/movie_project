@@ -69,6 +69,7 @@ display: flex
 ## 설치할 라이브러리
 - npm install react-router-dom --save
 - npm install axios
+- npm install styled-components
 
 -------------------------------------------------------------
 ## 파일 구조

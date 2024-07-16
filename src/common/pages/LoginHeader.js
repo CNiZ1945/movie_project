@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo_white from '../img/logo_white_bi.png';
 
-
+//css
+import "../css/LoginHeader.css"
 
 
 function LoginHeader() {
@@ -14,11 +16,13 @@ function LoginHeader() {
         <>
 
 
-            <header>
-                <div className="logo">
-                    <Link href="/"><img src="img/google_login.png" alt="" /></Link>
+
+            <header className='LoginHeader'>
+                <div className="LoginLogo">
+                    <Link to="/"><img src={logo_white} alt="" /></Link>
                 </div>
             </header>
+
 
 
         </>

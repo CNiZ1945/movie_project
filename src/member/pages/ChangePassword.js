@@ -1,6 +1,8 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
 
+// css
+import "../../common/css/ChangePassword.css"
 
 
 function ChangePassword() {
@@ -24,7 +26,7 @@ function ChangePassword() {
             </div>
             {/* <!-- 비밀번호 변경 박스 --> */}
             <div className="password_form_div">
-                <form action="" method='post'>
+                <form className='ChangePasswordForm'>
                     <div className="change_password">
                         <div>
                             비밀번호 변경:
@@ -42,13 +44,13 @@ function ChangePassword() {
                         </div>
                     </div>
                     <div className="submit_button">
-                        <input type="submit" name="" id="" value="변경하기" onclick="return checkPW()" />
+                        <input type="submit" name="" id="" className="ChangePwBtn" value="변경하기" />
                     </div>
                 </form>
             </div>
             {/* <!-- 돌아가기 박스 --> */}
             <div className="return_button">
-                <button onClick={() => navigate(-1)}>돌아가기</button>
+                <button className="ReturnBtn"  onClick={() => navigate(-1)}>돌아가기</button>
             </div>
 
 

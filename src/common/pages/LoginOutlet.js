@@ -12,8 +12,13 @@ function LoginOutlet() {
 
     return(
         <>
+<div className='mainbody'>
+
         <LoginHeader />
         <Outlet />
+</div>
+
+
 
         
         

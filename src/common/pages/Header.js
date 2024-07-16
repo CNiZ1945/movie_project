@@ -20,7 +20,7 @@ function Header() {
     return (
         <>
 
-            <header>
+            <header className='CustomHeader'>
                 {/* <!-- 헤더 오른쪽 --> */}
                 <div className="header_right">
                     <div className="logo_img">
@@ -32,7 +32,7 @@ function Header() {
                 <div className="search">
                     <form action="">
                         <input type="text" name="" id="" className="search_input" placeholder="오늘은 무슨 영화를 볼까?" />
-                        <button className="search_btn" type="submit">
+                        <button className="HeadSearchBtn" type="submit">
                             <i className="fa-solid fa-magnifying-glass-arrow-right fa-3x" ></i>
                         </button>
                     </form>

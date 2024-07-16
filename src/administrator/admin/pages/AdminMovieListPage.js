@@ -1,5 +1,5 @@
 import React from "react";
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 import '../../../common/css/AdminMovieList.css';
 
@@ -109,7 +109,7 @@ function AdminMovieListPage() {
                         <ul className="list " key={index}>
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
                             <li className="movie_id">{movieinfo.movieId}</li>
-                            <li className="movie_title">{movieinfo.movieTitle}</li>
+                            <li className="movie_title"><Link to="/admin/MovieUpload" className="black">{movieinfo.movieTitle}</Link></li>
                             <li className="movie_genre">{movieinfo.movieGenre}</li>
                             <li className="movie_director">{movieinfo.movieDirector}</li>
                             <li className="movie_time">{movieinfo.moviePlayTime}</li>

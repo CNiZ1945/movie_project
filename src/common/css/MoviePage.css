@@ -179,6 +179,21 @@
     align-items: center;
 }
 
+.reviewDeleteBtn{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    border-radius: 5px;
+
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    /* border: 1px solid red; */
+}
+
+.reviewDeleteBtn:hover{
+    background-color: #30fff5;
+}
 
 /* 리뷰 페이지 번호 창 */
 .review_no{

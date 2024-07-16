@@ -1,4 +1,4 @@
-header{
+.CustomHeader{
     width: 1200px;
     height: 100px;
     display: flex;
@@ -57,7 +57,7 @@ header{
     text-align: center;
 }
 /* 검색 버튼 */
-.search_btn{
+.HeadSearchBtn{
     
     width: 50px;
     height: 50px;

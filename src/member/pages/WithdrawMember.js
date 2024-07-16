@@ -38,7 +38,7 @@ function WithdrawMember() {
                 </form>
             </div>
             <div className="main_page">
-                <button onClick={() => navigate(-1)}>돌아가기</button>
+                <button className="ReturnBtn" onClick={() => navigate(-1)}>돌아가기</button>
             </div>
 
         </>

@@ -32,7 +32,7 @@ function MyPage(){
         {MyReview()}
         {MemberInfo()}
     <div className="member_withdrawal">
-        <Link to="/user/WithdrawMember">회원탈퇴</Link>
+        <Link to="/user/WithdrawMember" className='Gray'>회원탈퇴</Link>
     </div>
         
         

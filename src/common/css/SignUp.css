@@ -1,7 +1,6 @@
 .wrap{
-    text-align: left;
+    /* text-align: left; */
     width: 500px;
-    margin: 0 auto;
     border-radius: 5px;
 }
 
@@ -22,11 +21,15 @@
     width: 100%;
 }
 .idbutton{
-    padding-top: 20px;
+    width: 100px;
+    margin-top: 22px;
+    height: 40px;
     margin-right: 20px;
     border-radius: 10px;
     text-align: center;
+    /* border: 1px solid red; */
 }
+
 /* 이메일 */
 .emailDiv{
     display: flex;
@@ -42,7 +45,7 @@
 }
 
 
-div input {
+.commonpage{
     width: calc(93% - 10px);
     padding: 10px;
     border: 1px solid #ccc;
@@ -55,14 +58,17 @@ div input {
 .email{
     width: 43%;
 }
+
+
 .text {
-    width: 420px;
+    width: 460px;
     height: 200px;
     border: 1px solid #dadada;
     overflow-y: scroll;
     color: white;
     padding: 8px;
     margin-top: 5px;
+    margin-right: 20px;
 }
 .asd{
     width: 420px;
@@ -82,15 +88,19 @@ div input {
 }
 
 .custom-checkbox {
-    display: inline;
-    align-items: center;
+
     cursor: pointer;
     margin-top: 10px;
+    width: 100px;
+    /* border: 1px solid red */
+}
+.checkmark{
+    width: 280px;
+    /* height: 50px; */
+    /* border: 1px solid green; */
 }
 
-custom-checkbox input[type="checkbox"] {
-    /* display: none; */
-}
+
 
 /* 커스텀 체크박스 스타일 */
 .custom-checkbox {
@@ -104,9 +114,9 @@ custom-checkbox input[type="checkbox"] {
 
 
 /* 회원가입 버튼 */
-button[type="submit"] {
+.signupsubmit{
     position: relative;
-    width: 420px;
+    width: 476px;
     padding: 20px 20px;
     border: none;
     border-radius: 4px;

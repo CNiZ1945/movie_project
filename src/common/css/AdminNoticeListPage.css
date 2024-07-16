@@ -38,11 +38,6 @@
 }
 
 
-
-li Link{
-    display: block;
-}
-
 .admin_notice_list_ul li{
     line-height: 30px;
     border-right: 1px solid rgb(158, 158, 158);
