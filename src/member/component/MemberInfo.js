@@ -69,7 +69,7 @@ function MemberInfo() {
                             <label for="phone">연락처: </label>
                         </div>
                         <div>
-                            <input type="text" name="phone" id="" readOnly required />
+                            <input type="text" name="phone" id=""  required />
                         </div>
                     </div>
                     <div className="form_div">
@@ -82,10 +82,10 @@ function MemberInfo() {
                     </div>
                     <div className="form_div">
                         <div>
-                            <label for="date">성별: </label>
+                            <label for="date" readOnly>성별: </label>
                         </div>
                         <div>
-                            <input type="text" name="date" id="" required />
+                            <input type="text" name="date" id="" readOnly required />
                         </div>
                     </div>
                     <div className="submit_div">
