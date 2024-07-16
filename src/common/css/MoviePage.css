@@ -192,7 +192,8 @@
 }
 
 .reviewDeleteBtn:hover{
-    background-color: #30fff5;
+    border: 1.5px solid #0080ff;
+    background-color: #002244;
 }
 
 /* 리뷰 페이지 번호 창 */
