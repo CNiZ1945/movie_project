@@ -21,13 +21,15 @@ function AdminMemberListPage() {
                     <div>
                         <ul className="list content">
                             {/* <!-- 리스트 구획 설명 --> */}
-                            <li className="checkbox"> {/* <!-- 체크 박스를 위한 빈 공간--> */} </li>
-                            <li className="mem_no">회원 정렬용 번호</li>
+                            <li className="checkbox"> <input type="checkbox" name="" id="" /> </li>
+                            <li className="mem_no">회원 번호</li>
                             <li className="mem_id">회원 id</li>
+                            <li className="mem_name">이름</li>
                             <li className="mem_email">이메일</li>
                             <li className="mem_phone">연락처</li>
-                            <li className="mem_gender">남/녀</li>
+                            <li className="mem_gender">성별</li>
                             <li className="mem_birth">생년월일</li>
+                            <li className="mem_auth">권한</li>
                         </ul>
                     </div>
                     <div>
@@ -36,20 +38,25 @@ function AdminMemberListPage() {
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
                             <li className="mem_no">1</li>
                             <li className="mem_id">qwert</li>
+                            <li className="mem_name">박성화</li>
                             <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
+                            <li className="mem_phone">01000000000</li>
+                            <li className="mem_gender">남성</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_auth">USER</li>
                         </ul>
                         <ul className="list ">
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">2</li>
+                            <li className="mem_no">1</li>
                             <li className="mem_id">qwert</li>
+                            <li className="mem_name">박성화</li>
                             <li className="mem_email">naver@naver.com</li>
                             <li className="mem_phone">1588-3820</li>
                             <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999.06.02</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_auth">ADMIN</li>
                         </ul>
+
                         <ul className="list ">
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
                             <li className="mem_no">3</li>

@@ -7,7 +7,7 @@
 }
 
 .admin_member_list{
-    width: 90%;
+    width: 95%;
     text-align: center;
 }
 .admin_member_haed{
@@ -44,21 +44,26 @@
 	width: 10%;
 }
 .mem_id{
-	width: 25%;
+	width: 20%;
+}
+.mem_name{
+	width: 10%;
 }
 .mem_email{
-	width: 25%;
+	width: 20%;
 }
 .mem_phone{
 	width: 15%;
 }
 .mem_gender{
-	width: 10%;
+	width: 5%;
 }
 .mem_birth{
 	width: 10%;
 }
-
+.mem_auth{
+	width: 10%;
+}
 .list li:first-child{
 	margin-left: 0px;
 }
@@ -93,10 +98,13 @@
 }
 
 .list_number_ul li{
-    width: 30px;
-	text-align: center;
+    width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	/* border: 1px solid rgb(158, 158, 158); */
 	border-right: 1px solid rgb(158, 158, 158);
+	/* border-left: 1px solid rgb(158, 158, 158); */
 }
 .list_number_ul li:last-child{
 	border-right: none;

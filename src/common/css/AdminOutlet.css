@@ -36,7 +36,8 @@ time, mark, audio, video {
 /* ============================ 초기화 ================================= */
 /* ============================ body ================================= */
 .adminbody{
-	width: 1200px;
+	width: 90%;
+	min-width: 1300px;
 	height: 100%;
 	display: flex;
 	border: 1px solid black;
