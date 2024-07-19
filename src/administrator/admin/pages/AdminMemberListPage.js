@@ -29,7 +29,7 @@ function AdminMemberListPage() {
                             <li className="mem_phone">연락처</li>
                             <li className="mem_gender">성별</li>
                             <li className="mem_birth">생년월일</li>
-                            <li className="mem_auth">권한</li>
+                            <li className="mem_Role">권한</li>
                         </ul>
                     </div>
                     <div>
@@ -38,98 +38,114 @@ function AdminMemberListPage() {
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
                             <li className="mem_no">1</li>
                             <li className="mem_id">qwert</li>
-                            <li className="mem_name">박성화</li>
+                            <li className="mem_name">홍길동</li>
                             <li className="mem_email">naver@naver.com</li>
                             <li className="mem_phone">01000000000</li>
                             <li className="mem_gender">남성</li>
                             <li className="mem_birth">1999-06-02</li>
-                            <li className="mem_auth">USER</li>
+                            <li className="mem_Role">USER</li>
                         </ul>
                         <ul className="list ">
                             <li className="checkbox"><input type="checkbox" name="" id="" /></li>
                             <li className="mem_no">1</li>
                             <li className="mem_id">qwert</li>
-                            <li className="mem_name">박성화</li>
+                            <li className="mem_name">홍길동</li>
                             <li className="mem_email">naver@naver.com</li>
                             <li className="mem_phone">1588-3820</li>
                             <li className="mem_gender">남</li>
                             <li className="mem_birth">1999-06-02</li>
-                            <li className="mem_auth">ADMIN</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
+                        </ul>
+                        <ul className="list ">
+                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
+                            <li className="mem_no">1</li>
+                            <li className="mem_id">qwert</li>
+                            <li className="mem_name">홍길동</li>
+                            <li className="mem_email">naver@naver.com</li>
+                            <li className="mem_phone">1588-3820</li>
+                            <li className="mem_gender">남</li>
+                            <li className="mem_birth">1999-06-02</li>
+                            <li className="mem_Role">ADMIN</li>
                         </ul>
 
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">3</li>
-                            <li className="mem_id">qwert</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999/06/02</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">4</li>
-                            <li className="mem_id">qwert</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">010-1588-3820</li>
-                            <li className="mem_gender">여</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">5</li>
-                            <li className="mem_id">qwertnasver</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">6</li>
-                            <li className="mem_id">qwert</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">7</li>
-                            <li className="mem_id">qweqe123123rt</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">8</li>
-                            <li className="mem_id">qwert</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">9</li>
-                            <li className="mem_id">1234567890123456789</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-                        <ul className="list ">
-                            <li className="checkbox"><input type="checkbox" name="" id="" /></li>
-                            <li className="mem_no">10</li>
-                            <li className="mem_id">qwert</li>
-                            <li className="mem_email">naver@naver.com</li>
-                            <li className="mem_phone">1588-3820</li>
-                            <li className="mem_gender">남</li>
-                            <li className="mem_birth">1999년 6월 2일</li>
-                        </ul>
-
+                        
                     </div>
                 </div>
 
